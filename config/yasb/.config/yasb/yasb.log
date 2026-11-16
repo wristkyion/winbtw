@@ -1,0 +1,1889 @@
+2026-11-14 08:59:23,394 [DEBUG] [Dummy-28] [root/loopback.py:290]: Audio visualizer: default device changed flow=0 role=0 device={0.0.0.00000000}.{9096ff80-db7b-4b0a-ae18-f49b9f80f6d1}
+2026-11-14 08:59:23,399 [DEBUG] [Dummy-29] [root/loopback.py:290]: Audio visualizer: default device changed flow=0 role=1 device={0.0.0.00000000}.{9096ff80-db7b-4b0a-ae18-f49b9f80f6d1}
+2026-11-14 08:59:23,399 [DEBUG] [Dummy-29] [root/loopback.py:301]: Audio visualizer: default device change accepted, reopening
+2026-11-14 08:59:23,435 [INFO] [yasb-audio-visualizer] [root/loopback.py:728]: Audio visualizer: loopback capture open (48000 Hz, 2 ch, 32-bit float)
+2026-11-14 08:59:26,667 [INFO] [MainThread] [root/service.py:223]: Quick Launch rebuilding app list after install/uninstall detected
+2026-11-14 08:59:28,382 [DEBUG] [Dummy-36] [root/icon_extractor.py:316]: URL icon resolve failed for C:\ProgramData\Microsoft\Windows\Start Menu\Programs\S.T.A.L.K.E.R. Anomaly [GOG.com]\Documents\Support.url: File contains no section headers.
+file: 'C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\S.T.A.L.K.E.R. Anomaly [GOG.com]\\Documents\\Support.url', line: 1
+'\ufeff[InternetShortcut]\n'
+2026-11-14 12:59:33,838 [ERROR] [Thread-5724 (_fetch)] [root/api.py:538]: GitHubDataManager no internet connection. Unable to enrich notifications via GraphQL.
+2026-11-14 13:09:22,782 [ERROR] [Thread-5959 (_fetch)] [root/api.py:281]: GitHubDataManager an unexpected error occurred: Remote end closed connection without response
+2026-11-14 13:17:22,546 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping HotkeyListener...
+2026-11-14 13:17:22,600 [INFO] [MainThread] [root/bar_manager.py:119]: Stopping KomorebiEventListener...
+2026-11-14 13:17:22,613 [INFO] [MainThread] [root/bar_manager.py:119]: Stopping WindowsNotificationEventListener...
+2026-11-14 13:17:22,629 [INFO] [Dummy-14] [root/windows_notification.py:97]: Notification service stopped
+2026-11-14 13:17:22,631 [DEBUG] [Dummy-14] [root/windows_notification.py:178]: Unsubscribed from WNF notifications
+2026-11-14 13:17:22,665 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:208]: TaskbarWindowManager stopped
+2026-11-14 13:17:22,707 [DEBUG] [MainThread] [systray_widget/systray.py:594]: Saving state to C:\Users\wristkyion\AppData\Local\YASB\systray_state_AUOPTRONICSDISPLAY1.json
+2026-11-14 14:34:28,946 [INFO] [MainThread] [root/log.py:103]: YASB v2.0.7
+2026-11-14 14:34:28,947 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-11-14 14:34:28,947 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-11-14 14:34:29,037 [INFO] [MainThread] [root/main.py:113]: Debug mode enabled.
+2026-11-14 14:34:29,485 [INFO] [yasb-audio-visualizer] [root/loopback.py:728]: Audio visualizer: loopback capture open (48000 Hz, 2 ch, 32-bit float)
+2026-11-14 14:34:29,492 [DEBUG] [MainThread] [systray_widget/systray.py:612]: Loading state from C:\Users\wristkyion\AppData\Local\YASB\systray_state_AUOPTRONICSDISPLAY1.json
+2026-11-14 14:34:29,493 [DEBUG] [MainThread] [systray_hook/systray_hook.py:137]: Creating pipe \\.\pipe\yasb_systray_monitor...
+2026-11-14 14:34:29,494 [DEBUG] [SystrayHook] [systray_widget/systray.py:78]: Systray hook thread is starting...
+2026-11-14 14:34:29,565 [INFO] [SystrayHook] [systray_hook/systray_hook.py:193]: Injecting into Explorer (PID: 7348)
+2026-11-14 14:34:29,568 [DEBUG] [SystrayHook] [systray_hook/systray_hook.py:200]: Waiting for DLL to connect
+2026-11-14 14:34:29,570 [DEBUG] [SystrayHook] [systray_hook/systray_hook.py:219]: DLL Connected
+2026-11-14 14:34:29,570 [DEBUG] [SystrayHook] [systray_hook/systray_hook.py:293]: [DLL] Pipeline connected.
+2026-11-14 14:34:29,571 [DEBUG] [SystrayHook] [systray_hook/systray_hook.py:293]: [DLL] Successfully subclassed Shell_TrayWnd
+2026-11-14 14:34:29,571 [DEBUG] [SystrayHook] [systray_hook/systray_hook.py:293]: [DLL] Watchdog active. Sleeping until host drops.
+2026-11-14 14:34:29,618 [INFO] [MainThread] [root/api.py:65]: GitHubDataManager started...
+2026-11-14 14:34:29,679 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-11-14 14:34:30,439 [DEBUG] [MainThread] [root/service.py:521]: BrightnessService found monitor: 65537 device=\\.\DISPLAY1
+2026-11-14 14:34:30,439 [INFO] [MainThread] [root/service.py:225]: BrightnessService started with 1 monitors
+2026-11-14 14:34:30,455 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-11-14 14:34:30,472 [DEBUG] [BrightnessDetect] [root/service.py:454]: Monitor 65537 metadata: Built-in display internal=True conn=Unknown
+2026-11-14 14:34:30,528 [DEBUG] [MainThread] [root/app_bar.py:137]: Bar primary-bar Created on Screen: \\.\DISPLAY1 [Bar Height: 0px, DPI Scale: 1.0]
+2026-11-14 14:34:30,579 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:181]: TaskbarWindowManager is starting...
+2026-11-14 14:34:30,583 [INFO] [MainThread] [root/bar_manager.py:242]: Starting HotkeyListener...
+2026-11-14 14:34:30,584 [INFO] [MainThread] [root/bar_manager.py:103]: Starting WindowsNotificationEventListener...
+2026-11-14 14:34:30,584 [INFO] [MainThread] [root/bar_manager.py:103]: Starting KomorebiEventListener...
+2026-11-14 14:34:30,584 [DEBUG] [Dummy-10] [root/hotkeys.py:199]: Registered hotkey alt+shift+w
+2026-11-14 14:34:30,585 [DEBUG] [Dummy-10] [root/hotkeys.py:199]: Registered hotkey alt+space
+2026-11-14 14:34:30,585 [INFO] [Dummy-11] [root/event_listener.py:54]: Created named pipe yasb-727b110c-dff5-11f1-9835-2ad0434d36e2
+2026-11-14 14:34:30,585 [DEBUG] [Dummy-11] [root/event_listener.py:126]: Waiting for Komorebi to subscribe to named pipe yasb-727b110c-dff5-11f1-9835-2ad0434d36e2
+2026-11-14 14:34:30,587 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\wristkyion\.config\yasb
+2026-11-14 14:34:30,588 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-11-14 14:34:30,629 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-11-14 14:34:30,630 [INFO] [Dummy-14] [root/windows_notification.py:161]: Notification service started (WNF_SHEL_NOTIFICATION_TOTAL)
+2026-11-14 14:34:30,703 [WARNING] [Dummy-11] [root/event_listener.py:134]: Komorebi failed to subscribe named pipe. Komorebi is not running, please start Komorebi.
+2026-11-14 14:34:30,893 [DEBUG] [BrightnessDetect] [root/service.py:417]: Monitor 65537: DDC=False scheme=True internal=True name=Built-in display
+2026-11-14 14:34:30,953 [DEBUG] [MainThread] [systray_widget/systray.py:257]: Sending TaskbarCreated message: 49247
+2026-11-14 14:34:30,953 [DEBUG] [MainThread] [systray_widget/systray.py:259]: Systray icons refreshed
+2026-11-14 14:34:31,712 [DEBUG] [Dummy-17] [root/icon_extractor.py:316]: URL icon resolve failed for C:\ProgramData\Microsoft\Windows\Start Menu\Programs\S.T.A.L.K.E.R. Anomaly [GOG.com]\Documents\Support.url: File contains no section headers.
+file: 'C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\S.T.A.L.K.E.R. Anomaly [GOG.com]\\Documents\\Support.url', line: 1
+'\ufeff[InternetShortcut]\n'
+2026-11-14 14:34:35,328 [INFO] [MainThread] [root/bar_helper.py:578]: AppBarManager need to re-register 1 bar
+2026-11-14 14:34:35,334 [DEBUG] [MainThread] [root/app_bar.py:137]: Bar primary-bar Created on Screen: \\.\DISPLAY1 [Bar Height: 0px, DPI Scale: 1.0]
+2026-11-14 14:34:35,337 [INFO] [MainThread] [root/bar_helper.py:587]: Re-registered AppBar for primary-bar_DISPLAY1_7859db78 (space reservation + fullscreen)
+2026-11-14 14:34:42,382 [INFO] [MainThread] [root/service.py:223]: Quick Launch rebuilding app list after install/uninstall detected
+2026-11-14 14:34:44,780 [DEBUG] [Dummy-25] [root/icon_extractor.py:316]: URL icon resolve failed for C:\ProgramData\Microsoft\Windows\Start Menu\Programs\S.T.A.L.K.E.R. Anomaly [GOG.com]\Documents\Support.url: File contains no section headers.
+file: 'C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\S.T.A.L.K.E.R. Anomaly [GOG.com]\\Documents\\Support.url', line: 1
+'\ufeff[InternetShortcut]\n'
+2026-11-14 14:34:47,221 [DEBUG] [yasb-audio-visualizer] [root/loopback.py:662]: Audio visualizer: loopback stream invalidated ((-2004287484, None, (None, None, None, 0, None))), reopening
+2026-11-14 14:34:47,224 [DEBUG] [Dummy-28] [root/loopback.py:290]: Audio visualizer: default device changed flow=0 role=0 device={0.0.0.00000000}.{9096ff80-db7b-4b0a-ae18-f49b9f80f6d1}
+2026-11-14 14:34:47,225 [DEBUG] [Dummy-29] [root/loopback.py:290]: Audio visualizer: default device changed flow=0 role=1 device={0.0.0.00000000}.{9096ff80-db7b-4b0a-ae18-f49b9f80f6d1}
+2026-11-14 14:34:47,552 [DEBUG] [Dummy-31] [root/loopback.py:290]: Audio visualizer: default device changed flow=0 role=0 device={0.0.0.00000000}.{18d9ed62-0360-4961-bc6c-17bcc88432e4}
+2026-11-14 14:34:47,554 [DEBUG] [Dummy-32] [root/loopback.py:290]: Audio visualizer: default device changed flow=0 role=1 device={0.0.0.00000000}.{18d9ed62-0360-4961-bc6c-17bcc88432e4}
+2026-11-14 14:34:47,554 [DEBUG] [Dummy-32] [root/loopback.py:301]: Audio visualizer: default device change accepted, reopening
+2026-11-14 14:34:47,575 [INFO] [yasb-audio-visualizer] [root/loopback.py:728]: Audio visualizer: loopback capture open (48000 Hz, 2 ch, 32-bit float)
+2026-11-14 14:34:49,769 [DEBUG] [Dummy-34] [root/loopback.py:290]: Audio visualizer: default device changed flow=0 role=0 device={0.0.0.00000000}.{9096ff80-db7b-4b0a-ae18-f49b9f80f6d1}
+2026-11-14 14:34:49,769 [DEBUG] [Dummy-35] [root/loopback.py:290]: Audio visualizer: default device changed flow=0 role=1 device={0.0.0.00000000}.{9096ff80-db7b-4b0a-ae18-f49b9f80f6d1}
+2026-11-14 14:34:49,770 [DEBUG] [Dummy-35] [root/loopback.py:301]: Audio visualizer: default device change accepted, reopening
+2026-11-14 14:34:49,799 [INFO] [yasb-audio-visualizer] [root/loopback.py:728]: Audio visualizer: loopback capture open (48000 Hz, 2 ch, 32-bit float)
+2026-11-14 14:35:00,770 [INFO] [MainThread] [root/service.py:223]: Quick Launch rebuilding app list after install/uninstall detected
+2026-11-14 14:35:02,432 [DEBUG] [Dummy-46] [root/icon_extractor.py:316]: URL icon resolve failed for C:\ProgramData\Microsoft\Windows\Start Menu\Programs\S.T.A.L.K.E.R. Anomaly [GOG.com]\Documents\Support.url: File contains no section headers.
+file: 'C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\S.T.A.L.K.E.R. Anomaly [GOG.com]\\Documents\\Support.url', line: 1
+'\ufeff[InternetShortcut]\n'
+2026-11-14 14:35:06,167 [INFO] [MainThread] [root/service.py:223]: Quick Launch rebuilding app list after install/uninstall detected
+2026-11-14 14:35:07,535 [DEBUG] [Dummy-52] [root/icon_extractor.py:316]: URL icon resolve failed for C:\ProgramData\Microsoft\Windows\Start Menu\Programs\S.T.A.L.K.E.R. Anomaly [GOG.com]\Documents\Support.url: File contains no section headers.
+file: 'C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\S.T.A.L.K.E.R. Anomaly [GOG.com]\\Documents\\Support.url', line: 1
+'\ufeff[InternetShortcut]\n'
+2026-11-14 14:50:59,823 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping HotkeyListener...
+2026-11-14 14:50:59,828 [INFO] [MainThread] [root/bar_manager.py:119]: Stopping WindowsNotificationEventListener...
+2026-11-14 14:50:59,829 [INFO] [Dummy-14] [root/windows_notification.py:97]: Notification service stopped
+2026-11-14 14:50:59,829 [DEBUG] [Dummy-14] [root/windows_notification.py:178]: Unsubscribed from WNF notifications
+2026-11-14 14:50:59,832 [INFO] [MainThread] [root/bar_manager.py:119]: Stopping KomorebiEventListener...
+2026-11-14 14:50:59,840 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:208]: TaskbarWindowManager stopped
+2026-11-14 14:50:59,845 [DEBUG] [MainThread] [systray_widget/systray.py:594]: Saving state to C:\Users\wristkyion\AppData\Local\YASB\systray_state_AUOPTRONICSDISPLAY1.json
+2026-11-14 15:48:05,524 [INFO] [MainThread] [root/log.py:103]: YASB v2.0.7
+2026-11-14 15:48:05,525 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-11-14 15:48:05,526 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-11-14 15:48:05,612 [INFO] [MainThread] [root/main.py:113]: Debug mode enabled.
+2026-11-14 15:48:06,169 [DEBUG] [MainThread] [systray_widget/systray.py:612]: Loading state from C:\Users\wristkyion\AppData\Local\YASB\systray_state_AUOPTRONICSDISPLAY1.json
+2026-11-14 15:48:06,170 [INFO] [yasb-audio-visualizer] [root/loopback.py:728]: Audio visualizer: loopback capture open (48000 Hz, 2 ch, 32-bit float)
+2026-11-14 15:48:06,171 [DEBUG] [MainThread] [systray_hook/systray_hook.py:137]: Creating pipe \\.\pipe\yasb_systray_monitor...
+2026-11-14 15:48:06,173 [DEBUG] [SystrayHook] [systray_widget/systray.py:78]: Systray hook thread is starting...
+2026-11-14 15:48:06,267 [INFO] [SystrayHook] [systray_hook/systray_hook.py:193]: Injecting into Explorer (PID: 7512)
+2026-11-14 15:48:06,322 [INFO] [MainThread] [root/api.py:65]: GitHubDataManager started...
+2026-11-14 15:48:06,373 [ERROR] [Thread-7 (_fetch)] [root/api.py:275]: GitHubDataManager no internet connection. Unable to fetch notifications.
+2026-11-14 15:48:06,477 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-11-14 15:48:07,476 [DEBUG] [SystrayHook] [systray_hook/systray_hook.py:200]: Waiting for DLL to connect
+2026-11-14 15:48:07,495 [DEBUG] [SystrayHook] [systray_hook/systray_hook.py:219]: DLL Connected
+2026-11-14 15:48:07,496 [DEBUG] [SystrayHook] [systray_hook/systray_hook.py:293]: [DLL] Pipeline connected.
+2026-11-14 15:48:07,496 [DEBUG] [SystrayHook] [systray_hook/systray_hook.py:293]: [DLL] Successfully subclassed Shell_TrayWnd
+2026-11-14 15:48:07,497 [DEBUG] [SystrayHook] [systray_hook/systray_hook.py:293]: [DLL] Watchdog active. Sleeping until host drops.
+2026-11-14 15:48:07,671 [DEBUG] [MainThread] [root/service.py:521]: BrightnessService found monitor: 65537 device=\\.\DISPLAY1
+2026-11-14 15:48:07,671 [INFO] [MainThread] [root/service.py:225]: BrightnessService started with 1 monitors
+2026-11-14 15:48:07,687 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-11-14 15:48:07,706 [DEBUG] [BrightnessDetect] [root/service.py:454]: Monitor 65537 metadata: Built-in display internal=True conn=Unknown
+2026-11-14 15:48:07,772 [DEBUG] [MainThread] [root/app_bar.py:137]: Bar primary-bar Created on Screen: \\.\DISPLAY1 [Bar Height: 0px, DPI Scale: 1.0]
+2026-11-14 15:48:07,834 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:181]: TaskbarWindowManager is starting...
+2026-11-14 15:48:07,838 [INFO] [MainThread] [root/bar_manager.py:242]: Starting HotkeyListener...
+2026-11-14 15:48:07,838 [INFO] [MainThread] [root/bar_manager.py:103]: Starting KomorebiEventListener...
+2026-11-14 15:48:07,839 [INFO] [MainThread] [root/bar_manager.py:103]: Starting WindowsNotificationEventListener...
+2026-11-14 15:48:07,839 [DEBUG] [Dummy-10] [root/hotkeys.py:199]: Registered hotkey alt+shift+w
+2026-11-14 15:48:07,839 [INFO] [Dummy-11] [root/event_listener.py:54]: Created named pipe yasb-bb5e9aee-dfff-11f1-9678-2ad0434d36e2
+2026-11-14 15:48:07,840 [DEBUG] [Dummy-11] [root/event_listener.py:126]: Waiting for Komorebi to subscribe to named pipe yasb-bb5e9aee-dfff-11f1-9678-2ad0434d36e2
+2026-11-14 15:48:07,839 [DEBUG] [Dummy-10] [root/hotkeys.py:199]: Registered hotkey alt+space
+2026-11-14 15:48:07,842 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\wristkyion\.config\yasb
+2026-11-14 15:48:07,843 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-11-14 15:48:07,890 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-11-14 15:48:07,918 [INFO] [Dummy-16] [root/windows_notification.py:161]: Notification service started (WNF_SHEL_NOTIFICATION_TOTAL)
+2026-11-14 15:48:07,949 [WARNING] [UpdateChecker] [root/update_service.py:300]: Network error checking for updates: [Errno 11001] getaddrinfo failed
+2026-11-14 15:48:07,949 [WARNING] [UpdateChecker] [root/update_service.py:430]: Background update check failed: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-11-14 15:48:07,957 [WARNING] [Dummy-11] [root/event_listener.py:134]: Komorebi failed to subscribe named pipe. Komorebi is not running, please start Komorebi.
+2026-11-14 15:48:08,123 [DEBUG] [BrightnessDetect] [root/service.py:417]: Monitor 65537: DDC=False scheme=True internal=True name=Built-in display
+2026-11-14 15:48:08,908 [DEBUG] [MainThread] [systray_widget/systray.py:257]: Sending TaskbarCreated message: 49247
+2026-11-14 15:48:08,909 [DEBUG] [MainThread] [systray_widget/systray.py:259]: Systray icons refreshed
+2026-11-14 15:48:08,987 [ERROR] [MainThread] [open_meteo/api.py:108]: No internet connection or host not found. Unable to fetch weather.
+2026-11-14 15:48:08,987 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+2026-11-14 15:48:09,131 [DEBUG] [Dummy-17] [root/icon_extractor.py:316]: URL icon resolve failed for C:\ProgramData\Microsoft\Windows\Start Menu\Programs\S.T.A.L.K.E.R. Anomaly [GOG.com]\Documents\Support.url: File contains no section headers.
+file: 'C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\S.T.A.L.K.E.R. Anomaly [GOG.com]\\Documents\\Support.url', line: 1
+'\ufeff[InternetShortcut]\n'
+2026-11-14 15:48:13,044 [INFO] [MainThread] [root/bar_helper.py:578]: AppBarManager need to re-register 1 bar
+2026-11-14 15:48:13,058 [DEBUG] [MainThread] [root/app_bar.py:137]: Bar primary-bar Created on Screen: \\.\DISPLAY1 [Bar Height: 0px, DPI Scale: 1.0]
+2026-11-14 15:48:13,061 [INFO] [MainThread] [root/bar_helper.py:587]: Re-registered AppBar for primary-bar_DISPLAY1_5f3f4e86 (space reservation + fullscreen)
+2026-11-14 15:48:18,983 [ERROR] [MainThread] [open_meteo/api.py:108]: No internet connection or host not found. Unable to fetch weather.
+2026-11-14 15:48:18,984 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+2026-11-14 15:48:19,628 [INFO] [MainThread] [root/service.py:223]: Quick Launch rebuilding app list after install/uninstall detected
+2026-11-14 15:48:21,261 [DEBUG] [Dummy-25] [root/icon_extractor.py:316]: URL icon resolve failed for C:\ProgramData\Microsoft\Windows\Start Menu\Programs\S.T.A.L.K.E.R. Anomaly [GOG.com]\Documents\Support.url: File contains no section headers.
+file: 'C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\S.T.A.L.K.E.R. Anomaly [GOG.com]\\Documents\\Support.url', line: 1
+'\ufeff[InternetShortcut]\n'
+2026-11-14 15:48:22,255 [DEBUG] [yasb-audio-visualizer] [root/loopback.py:662]: Audio visualizer: loopback stream invalidated ((-2004287484, None, (None, None, None, 0, None))), reopening
+2026-11-14 15:48:22,257 [DEBUG] [Dummy-26] [root/loopback.py:290]: Audio visualizer: default device changed flow=0 role=0 device={0.0.0.00000000}.{9096ff80-db7b-4b0a-ae18-f49b9f80f6d1}
+2026-11-14 15:48:22,259 [DEBUG] [Dummy-27] [root/loopback.py:290]: Audio visualizer: default device changed flow=0 role=1 device={0.0.0.00000000}.{9096ff80-db7b-4b0a-ae18-f49b9f80f6d1}
+2026-11-14 15:48:22,589 [DEBUG] [Dummy-29] [root/loopback.py:290]: Audio visualizer: default device changed flow=0 role=0 device={0.0.0.00000000}.{18d9ed62-0360-4961-bc6c-17bcc88432e4}
+2026-11-14 15:48:22,590 [DEBUG] [Dummy-30] [root/loopback.py:290]: Audio visualizer: default device changed flow=0 role=1 device={0.0.0.00000000}.{18d9ed62-0360-4961-bc6c-17bcc88432e4}
+2026-11-14 15:48:22,590 [DEBUG] [Dummy-30] [root/loopback.py:301]: Audio visualizer: default device change accepted, reopening
+2026-11-14 15:48:22,619 [INFO] [yasb-audio-visualizer] [root/loopback.py:728]: Audio visualizer: loopback capture open (48000 Hz, 2 ch, 32-bit float)
+2026-11-14 15:48:24,827 [DEBUG] [Dummy-34] [root/loopback.py:290]: Audio visualizer: default device changed flow=0 role=0 device={0.0.0.00000000}.{9096ff80-db7b-4b0a-ae18-f49b9f80f6d1}
+2026-11-14 15:48:24,828 [DEBUG] [Dummy-35] [root/loopback.py:290]: Audio visualizer: default device changed flow=0 role=1 device={0.0.0.00000000}.{9096ff80-db7b-4b0a-ae18-f49b9f80f6d1}
+2026-11-14 15:48:24,828 [DEBUG] [Dummy-35] [root/loopback.py:301]: Audio visualizer: default device change accepted, reopening
+2026-11-14 15:48:24,851 [INFO] [yasb-audio-visualizer] [root/loopback.py:728]: Audio visualizer: loopback capture open (48000 Hz, 2 ch, 32-bit float)
+2026-11-14 15:48:28,987 [ERROR] [MainThread] [open_meteo/api.py:108]: No internet connection or host not found. Unable to fetch weather.
+2026-11-14 15:48:28,987 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+2026-11-14 15:48:39,006 [ERROR] [MainThread] [open_meteo/api.py:108]: No internet connection or host not found. Unable to fetch weather.
+2026-11-14 15:48:39,007 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+2026-11-14 15:48:49,013 [ERROR] [MainThread] [open_meteo/api.py:108]: No internet connection or host not found. Unable to fetch weather.
+2026-11-14 15:48:49,013 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+2026-11-14 15:48:59,015 [ERROR] [MainThread] [open_meteo/api.py:108]: No internet connection or host not found. Unable to fetch weather.
+2026-11-14 15:48:59,015 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+2026-11-14 15:49:09,020 [ERROR] [MainThread] [open_meteo/api.py:108]: No internet connection or host not found. Unable to fetch weather.
+2026-11-14 15:49:09,020 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+2026-11-14 15:49:10,943 [INFO] [MainThread] [root/bar.py:162]: Screen geometry changed. Updating position for bar primary-bar on screen \\.\DISPLAY1
+2026-11-14 15:49:10,981 [DEBUG] [MainThread] [root/app_bar.py:137]: Bar primary-bar Created on Screen: \\.\DISPLAY1 [Bar Height: 0px, DPI Scale: 1.0]
+2026-11-14 15:49:11,652 [INFO] [MainThread] [root/bar.py:162]: Screen geometry changed. Updating position for bar primary-bar on screen \\.\DISPLAY1
+2026-11-14 15:49:11,677 [DEBUG] [MainThread] [root/app_bar.py:137]: Bar primary-bar Created on Screen: \\.\DISPLAY1 [Bar Height: 0px, DPI Scale: 1.0]
+2026-11-14 15:49:14,119 [INFO] [MainThread] [root/bar.py:162]: Screen geometry changed. Updating position for bar primary-bar on screen \\.\DISPLAY1
+2026-11-14 15:49:14,135 [DEBUG] [MainThread] [root/app_bar.py:137]: Bar primary-bar Created on Screen: \\.\DISPLAY1 [Bar Height: 0px, DPI Scale: 1.0]
+2026-11-14 15:49:15,041 [INFO] [MainThread] [root/bar.py:162]: Screen geometry changed. Updating position for bar primary-bar on screen \\.\DISPLAY1
+2026-11-14 15:49:15,060 [DEBUG] [MainThread] [root/app_bar.py:137]: Bar primary-bar Created on Screen: \\.\DISPLAY1 [Bar Height: 0px, DPI Scale: 1.0]
+2026-11-14 15:49:19,032 [ERROR] [MainThread] [open_meteo/api.py:108]: No internet connection or host not found. Unable to fetch weather.
+2026-11-14 15:49:19,032 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+2026-11-14 15:49:29,039 [ERROR] [MainThread] [open_meteo/api.py:108]: No internet connection or host not found. Unable to fetch weather.
+2026-11-14 15:49:29,039 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+2026-11-14 15:49:35,775 [INFO] [MainThread] [root/bar.py:162]: Screen geometry changed. Updating position for bar primary-bar on screen \\.\DISPLAY1
+2026-11-14 15:49:35,846 [DEBUG] [MainThread] [root/app_bar.py:137]: Bar primary-bar Created on Screen: \\.\DISPLAY1 [Bar Height: 0px, DPI Scale: 1.0]
+2026-11-14 15:49:36,416 [INFO] [MainThread] [root/bar.py:162]: Screen geometry changed. Updating position for bar primary-bar on screen \\.\DISPLAY1
+2026-11-14 15:49:36,442 [DEBUG] [MainThread] [root/app_bar.py:137]: Bar primary-bar Created on Screen: \\.\DISPLAY1 [Bar Height: 0px, DPI Scale: 1.0]
+2026-11-14 15:49:37,632 [INFO] [MainThread] [root/bar.py:162]: Screen geometry changed. Updating position for bar primary-bar on screen \\.\DISPLAY1
+2026-11-14 15:49:37,646 [DEBUG] [MainThread] [root/app_bar.py:137]: Bar primary-bar Created on Screen: \\.\DISPLAY1 [Bar Height: 0px, DPI Scale: 1.0]
+2026-11-14 15:49:38,636 [INFO] [MainThread] [root/bar.py:162]: Screen geometry changed. Updating position for bar primary-bar on screen \\.\DISPLAY1
+2026-11-14 15:49:38,662 [DEBUG] [MainThread] [root/app_bar.py:137]: Bar primary-bar Created on Screen: \\.\DISPLAY1 [Bar Height: 0px, DPI Scale: 1.0]
+2026-11-14 15:49:39,046 [ERROR] [MainThread] [open_meteo/api.py:108]: No internet connection or host not found. Unable to fetch weather.
+2026-11-14 15:49:39,046 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+2026-11-14 15:49:49,043 [ERROR] [MainThread] [open_meteo/api.py:108]: No internet connection or host not found. Unable to fetch weather.
+2026-11-14 15:49:49,043 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+2026-11-14 15:49:51,452 [INFO] [MainThread] [root/bar.py:162]: Screen geometry changed. Updating position for bar primary-bar on screen \\.\DISPLAY1
+2026-11-14 15:49:51,510 [DEBUG] [MainThread] [root/app_bar.py:137]: Bar primary-bar Created on Screen: \\.\DISPLAY1 [Bar Height: 0px, DPI Scale: 1.0]
+2026-11-14 15:49:52,072 [INFO] [MainThread] [root/bar.py:162]: Screen geometry changed. Updating position for bar primary-bar on screen \\.\DISPLAY1
+2026-11-14 15:49:52,091 [DEBUG] [MainThread] [root/app_bar.py:137]: Bar primary-bar Created on Screen: \\.\DISPLAY1 [Bar Height: 0px, DPI Scale: 1.0]
+2026-11-14 15:49:59,052 [ERROR] [MainThread] [open_meteo/api.py:108]: No internet connection or host not found. Unable to fetch weather.
+2026-11-14 15:49:59,053 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+2026-11-14 15:50:01,774 [INFO] [MainThread] [root/bar.py:162]: Screen geometry changed. Updating position for bar primary-bar on screen \\.\DISPLAY1
+2026-11-14 15:50:01,784 [DEBUG] [MainThread] [root/app_bar.py:137]: Bar primary-bar Created on Screen: \\.\DISPLAY1 [Bar Height: 0px, DPI Scale: 1.0]
+2026-11-14 15:50:02,300 [INFO] [MainThread] [root/bar.py:162]: Screen geometry changed. Updating position for bar primary-bar on screen \\.\DISPLAY1
+2026-11-14 15:50:02,314 [DEBUG] [MainThread] [root/app_bar.py:137]: Bar primary-bar Created on Screen: \\.\DISPLAY1 [Bar Height: 0px, DPI Scale: 1.0]
+2026-11-14 15:50:09,508 [ERROR] [MainThread] [open_meteo/api.py:108]: No internet connection or host not found. Unable to fetch weather.
+2026-11-14 15:50:09,509 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+2026-11-14 15:50:19,513 [ERROR] [MainThread] [open_meteo/api.py:108]: No internet connection or host not found. Unable to fetch weather.
+2026-11-14 15:50:19,513 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+2026-11-14 15:50:29,519 [ERROR] [MainThread] [open_meteo/api.py:108]: No internet connection or host not found. Unable to fetch weather.
+2026-11-14 15:50:29,519 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+2026-11-14 15:50:39,513 [ERROR] [MainThread] [open_meteo/api.py:108]: No internet connection or host not found. Unable to fetch weather.
+2026-11-14 15:50:39,513 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+2026-11-14 15:50:49,513 [ERROR] [MainThread] [open_meteo/api.py:108]: No internet connection or host not found. Unable to fetch weather.
+2026-11-14 15:50:49,513 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+2026-11-14 15:50:59,528 [ERROR] [MainThread] [open_meteo/api.py:108]: No internet connection or host not found. Unable to fetch weather.
+2026-11-14 15:50:59,529 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+2026-11-14 15:51:09,524 [ERROR] [MainThread] [open_meteo/api.py:108]: No internet connection or host not found. Unable to fetch weather.
+2026-11-14 15:51:09,524 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+2026-11-14 15:51:19,528 [ERROR] [MainThread] [open_meteo/api.py:108]: No internet connection or host not found. Unable to fetch weather.
+2026-11-14 15:51:19,528 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+2026-11-14 15:51:58,317 [INFO] [MainThread] [root/bar.py:162]: Screen geometry changed. Updating position for bar primary-bar on screen \\.\DISPLAY1
+2026-11-14 15:51:58,343 [DEBUG] [MainThread] [root/app_bar.py:137]: Bar primary-bar Created on Screen: \\.\DISPLAY1 [Bar Height: 0px, DPI Scale: 1.0]
+2026-11-14 15:51:58,641 [INFO] [MainThread] [root/bar.py:162]: Screen geometry changed. Updating position for bar primary-bar on screen \\.\DISPLAY1
+2026-11-14 15:51:58,660 [DEBUG] [MainThread] [root/app_bar.py:137]: Bar primary-bar Created on Screen: \\.\DISPLAY1 [Bar Height: 0px, DPI Scale: 1.0]
+2026-11-14 15:53:15,401 [INFO] [MainThread] [root/bar.py:162]: Screen geometry changed. Updating position for bar primary-bar on screen \\.\DISPLAY1
+2026-11-14 15:53:15,430 [DEBUG] [MainThread] [root/app_bar.py:137]: Bar primary-bar Created on Screen: \\.\DISPLAY1 [Bar Height: 0px, DPI Scale: 1.0]
+2026-11-14 15:53:15,661 [INFO] [MainThread] [root/bar.py:162]: Screen geometry changed. Updating position for bar primary-bar on screen \\.\DISPLAY1
+2026-11-14 15:53:15,716 [DEBUG] [MainThread] [root/app_bar.py:137]: Bar primary-bar Created on Screen: \\.\DISPLAY1 [Bar Height: 0px, DPI Scale: 1.0]
+2026-11-14 15:53:19,374 [INFO] [MainThread] [root/bar.py:162]: Screen geometry changed. Updating position for bar primary-bar on screen \\.\DISPLAY1
+2026-11-14 15:53:19,437 [DEBUG] [MainThread] [root/app_bar.py:137]: Bar primary-bar Created on Screen: \\.\DISPLAY1 [Bar Height: 0px, DPI Scale: 1.0]
+2026-11-14 15:53:19,871 [INFO] [MainThread] [root/bar.py:162]: Screen geometry changed. Updating position for bar primary-bar on screen \\.\DISPLAY1
+2026-11-14 15:53:19,897 [DEBUG] [MainThread] [root/app_bar.py:137]: Bar primary-bar Created on Screen: \\.\DISPLAY1 [Bar Height: 0px, DPI Scale: 1.0]
+2026-11-14 15:55:50,296 [INFO] [MainThread] [root/bar.py:162]: Screen geometry changed. Updating position for bar primary-bar on screen \\.\DISPLAY1
+2026-11-14 15:55:50,320 [DEBUG] [MainThread] [root/app_bar.py:137]: Bar primary-bar Created on Screen: \\.\DISPLAY1 [Bar Height: 0px, DPI Scale: 1.0]
+2026-11-14 15:55:50,642 [INFO] [MainThread] [root/bar.py:162]: Screen geometry changed. Updating position for bar primary-bar on screen \\.\DISPLAY1
+2026-11-14 15:55:50,670 [DEBUG] [MainThread] [root/app_bar.py:137]: Bar primary-bar Created on Screen: \\.\DISPLAY1 [Bar Height: 0px, DPI Scale: 1.0]
+2026-11-14 16:02:36,046 [INFO] [MainThread] [root/bar.py:162]: Screen geometry changed. Updating position for bar primary-bar on screen \\.\DISPLAY1
+2026-11-14 16:02:36,078 [DEBUG] [MainThread] [root/app_bar.py:137]: Bar primary-bar Created on Screen: \\.\DISPLAY1 [Bar Height: 0px, DPI Scale: 1.0]
+2026-11-14 16:02:36,676 [INFO] [MainThread] [root/bar.py:162]: Screen geometry changed. Updating position for bar primary-bar on screen \\.\DISPLAY1
+2026-11-14 16:02:36,691 [DEBUG] [MainThread] [root/app_bar.py:137]: Bar primary-bar Created on Screen: \\.\DISPLAY1 [Bar Height: 0px, DPI Scale: 1.0]
+2026-11-14 16:07:35,710 [INFO] [MainThread] [root/service.py:223]: Quick Launch rebuilding app list after install/uninstall detected
+2026-11-14 16:07:37,437 [DEBUG] [Dummy-493] [root/icon_extractor.py:316]: URL icon resolve failed for C:\ProgramData\Microsoft\Windows\Start Menu\Programs\S.T.A.L.K.E.R. Anomaly [GOG.com]\Documents\Support.url: File contains no section headers.
+file: 'C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\S.T.A.L.K.E.R. Anomaly [GOG.com]\\Documents\\Support.url', line: 1
+'\ufeff[InternetShortcut]\n'
+2026-11-14 22:48:17,993 [ERROR] [Thread-9920 (_fetch)] [root/api.py:281]: GitHubDataManager an unexpected error occurred: Remote end closed connection without response
+2026-11-15 00:37:46,110 [DEBUG] [SystrayHook] [systray_hook/systray_hook.py:262]: DLL Disconnected
+2026-11-15 00:37:49,192 [INFO] [SystrayHook] [systray_hook/systray_hook.py:193]: Injecting into Explorer (PID: 13816)
+2026-11-15 00:37:49,228 [DEBUG] [SystrayHook] [systray_hook/systray_hook.py:200]: Waiting for DLL to connect
+2026-11-15 00:37:51,266 [INFO] [MainThread] [root/bar_helper.py:578]: AppBarManager need to re-register 1 bar
+2026-11-15 00:37:51,280 [DEBUG] [MainThread] [root/app_bar.py:137]: Bar primary-bar Created on Screen: \\.\DISPLAY1 [Bar Height: 0px, DPI Scale: 1.0]
+2026-11-15 00:37:51,287 [INFO] [MainThread] [root/bar_helper.py:587]: Re-registered AppBar for primary-bar_DISPLAY1_5f3f4e86 (space reservation + fullscreen)
+2026-11-15 00:37:55,076 [INFO] [MainThread] [root/bar_helper.py:578]: AppBarManager need to re-register 1 bar
+2026-11-15 00:37:55,353 [DEBUG] [MainThread] [root/app_bar.py:137]: Bar primary-bar Created on Screen: \\.\DISPLAY1 [Bar Height: 0px, DPI Scale: 1.0]
+2026-11-15 00:37:55,354 [INFO] [MainThread] [root/bar_helper.py:587]: Re-registered AppBar for primary-bar_DISPLAY1_5f3f4e86 (space reservation + fullscreen)
+2026-11-15 01:27:03,525 [INFO] [MainThread] [root/service.py:223]: Quick Launch rebuilding app list after install/uninstall detected
+2026-11-15 01:27:06,512 [DEBUG] [Dummy-13675] [root/icon_extractor.py:316]: URL icon resolve failed for C:\ProgramData\Microsoft\Windows\Start Menu\Programs\S.T.A.L.K.E.R. Anomaly [GOG.com]\Documents\Support.url: File contains no section headers.
+file: 'C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\S.T.A.L.K.E.R. Anomaly [GOG.com]\\Documents\\Support.url', line: 1
+'\ufeff[InternetShortcut]\n'
+2026-11-15 13:48:22,577 [ERROR] [Thread-31218 (_fetch)] [root/api.py:538]: GitHubDataManager no internet connection. Unable to enrich notifications via GraphQL.
+2026-11-15 14:28:06,500 [ERROR] [Thread-32150 (_fetch)] [root/api.py:275]: GitHubDataManager no internet connection. Unable to fetch notifications.
+2026-11-15 14:28:50,184 [ERROR] [MainThread] [open_meteo/api.py:115]: Open-Meteo response error None: UnknownNetworkError 99
+2026-11-15 14:28:50,186 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+2026-11-15 14:29:42,298 [ERROR] [MainThread] [open_meteo/api.py:115]: Open-Meteo response error None: UnknownNetworkError 99
+2026-11-15 14:29:42,300 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+Windows fatal exception: code 0x800706ba
+
+Thread 0x00002e78 [Thread-12] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 369 in wait
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\queue.py", line 199 in get
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 379 in dispatch_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 213 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00002e74 [Thread-13] (most recent call first):
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\winapi.py", line 326 in read_directory_changes
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\winapi.py", line 380 in read_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\read_directory_changes.py", line 67 in _read_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\read_directory_changes.py", line 70 in queue_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 158 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00002e5c [WindowsNotificationEventListener] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\windows_events.py", line 778 in _poll
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\windows_events.py", line 446 in select
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\base_events.py", line 2019 in _run_once
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\base_events.py", line 678 in run_forever
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\base_events.py", line 707 in run_until_complete
+  File "D:\a\yasb\yasb\src\core\widgets\services\notifications\windows_notification.py", line 84 in run
+
+Thread 0x00002e58 [KomorebiEventListener] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 373 in wait
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 670 in wait
+  File "D:\a\yasb\yasb\src\core\widgets\services\komorebi\event_listener.py", line 139 in _wait_until_komorebi_online
+  File "D:\a\yasb\yasb\src\core\widgets\services\komorebi\event_listener.py", line 69 in run
+
+Thread 0x00002e54 [HotkeyListener] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\hotkeys.py", line 252 in run
+
+Thread 0x00002e28 [BrightnessPolicy] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\brightness\service.py", line 315 in _policy_message_loop
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00002c68 [SystrayHook] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\systray\systray_hook.py", line 208 in run
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\systray.py", line 79 in run
+
+Thread 0x00002c08 [yasb-audio-visualizer] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\audio_visualizer\loopback.py", line 644 in _capture_loop
+  File "D:\a\yasb\yasb\src\core\widgets\services\audio_visualizer\loopback.py", line 573 in _capture_thread
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00002a08 [QueryWorker] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\quick_launch\workers.py", line 61 in run
+
+Thread 0x00001f34 [_EventWorker] (most recent call first):
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 147 in _poll
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 72 in select
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 199 in run
+
+Thread 0x000029d0 [LogPipeServer] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\bindings\kernel32.py", line 291 in ConnectNamedPipe
+  File "D:\a\yasb\yasb\src\core\utils\cli_server.py", line 138 in _run_server
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x000029ec [CLIPipeServer] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\bindings\kernel32.py", line 291 in ConnectNamedPipe
+  File "D:\a\yasb\yasb\src\core\utils\cli_server.py", line 235 in _run_server
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Current thread 0x00002bec (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\taskbar\application_window.py", line 254 in _is_ghost_uwp_app
+  File "D:\a\yasb\yasb\src\core\widgets\services\taskbar\application_window.py", line 305 in is_taskbar_window
+  File "D:\a\yasb\yasb\src\core\widgets\services\taskbar\window_manager.py", line 562 in _add_window
+  File "D:\a\yasb\yasb\src\core\widgets\services\taskbar\window_manager.py", line 433 in _on_window_redraw
+  File "D:\a\yasb\yasb\src\core\widgets\services\taskbar\window_manager.py", line 332 in _handle_shell_hook_message
+  File "D:\a\yasb\yasb\src\core\widgets\services\taskbar\window_manager.py", line 118 in nativeEventFilter
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\__init__.py", line 404 in run_forever
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\__init__.py", line 428 in run_until_complete
+  File "main.py", line 75 in main
+  File "main.py", line 178 in <module>
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\freeze_core\initscripts\console.py", line 43 in run
+  File "src/freeze_core/initscripts/__startup__.py", line 147 in run
+Windows fatal exception: code 0x800706ba
+
+Thread 0x00002e78 [Thread-12] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 369 in wait
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\queue.py", line 199 in get
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 379 in dispatch_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 213 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00002e74 [Thread-13] (most recent call first):
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\winapi.py", line 326 in read_directory_changes
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\winapi.py", line 380 in read_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\read_directory_changes.py", line 67 in _read_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\read_directory_changes.py", line 70 in queue_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 158 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00002e5c [WindowsNotificationEventListener] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\windows_events.py", line 778 in _poll
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\windows_events.py", line 446 in select
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\base_events.py", line 2019 in _run_once
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\base_events.py", line 678 in run_forever
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\base_events.py", line 707 in run_until_complete
+  File "D:\a\yasb\yasb\src\core\widgets\services\notifications\windows_notification.py", line 84 in run
+
+Thread 0x00002e58 [KomorebiEventListener] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 373 in wait
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 670 in wait
+  File "D:\a\yasb\yasb\src\core\widgets\services\komorebi\event_listener.py", line 139 in _wait_until_komorebi_online
+  File "D:\a\yasb\yasb\src\core\widgets\services\komorebi\event_listener.py", line 69 in run
+
+Thread 0x00002e54 [HotkeyListener] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\hotkeys.py", line 252 in run
+
+Thread 0x00002e28 [BrightnessPolicy] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\brightness\service.py", line 315 in _policy_message_loop
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00002c68 [SystrayHook] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\systray\systray_hook.py", line 208 in run
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\systray.py", line 79 in run
+
+Thread 0x00002c08 [yasb-audio-visualizer] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\audio_visualizer\loopback.py", line 644 in _capture_loop
+  File "D:\a\yasb\yasb\src\core\widgets\services\audio_visualizer\loopback.py", line 573 in _capture_thread
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00002a08 [QueryWorker] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\quick_launch\workers.py", line 61 in run
+
+Thread 0x00001f34 [_EventWorker] (most recent call first):
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 147 in _poll
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 72 in select
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 199 in run
+
+Thread 0x000029d0 [LogPipeServer] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\bindings\kernel32.py", line 291 in ConnectNamedPipe
+  File "D:\a\yasb\yasb\src\core\utils\cli_server.py", line 138 in _run_server
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x000029ec [CLIPipeServer] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\bindings\kernel32.py", line 291 in ConnectNamedPipe
+  File "D:\a\yasb\yasb\src\core\utils\cli_server.py", line 235 in _run_server
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Current thread 0x00002bec (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\taskbar\application_window.py", line 254 in _is_ghost_uwp_app
+  File "D:\a\yasb\yasb\src\core\widgets\services\taskbar\application_window.py", line 305 in is_taskbar_window
+  File "D:\a\yasb\yasb\src\core\widgets\services\taskbar\window_manager.py", line 562 in _add_window
+  File "D:\a\yasb\yasb\src\core\widgets\services\taskbar\window_manager.py", line 433 in _on_window_redraw
+  File "D:\a\yasb\yasb\src\core\widgets\services\taskbar\window_manager.py", line 332 in _handle_shell_hook_message
+  File "D:\a\yasb\yasb\src\core\widgets\services\taskbar\window_manager.py", line 118 in nativeEventFilter
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\__init__.py", line 404 in run_forever
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\__init__.py", line 428 in run_until_complete
+  File "main.py", line 75 in main
+  File "main.py", line 178 in <module>
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\freeze_core\initscripts\console.py", line 43 in run
+  File "src/freeze_core/initscripts/__startup__.py", line 147 in run
+2026-11-15 14:30:32,530 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping HotkeyListener...
+2026-11-15 14:30:32,569 [INFO] [MainThread] [root/bar_manager.py:119]: Stopping KomorebiEventListener...
+2026-11-15 14:30:32,586 [INFO] [MainThread] [root/bar_manager.py:119]: Stopping WindowsNotificationEventListener...
+2026-11-15 14:30:32,602 [INFO] [Dummy-16] [root/windows_notification.py:97]: Notification service stopped
+2026-11-15 14:30:32,604 [DEBUG] [Dummy-16] [root/windows_notification.py:178]: Unsubscribed from WNF notifications
+2026-11-15 14:30:32,755 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:208]: TaskbarWindowManager stopped
+2026-11-15 14:30:32,952 [DEBUG] [MainThread] [systray_widget/systray.py:594]: Saving state to C:\Users\wristkyion\AppData\Local\YASB\systray_state_AUOPTRONICSDISPLAY1.json
+2026-11-15 14:31:17,310 [INFO] [MainThread] [root/log.py:103]: YASB v2.0.7
+2026-11-15 14:31:17,311 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-11-15 14:31:17,311 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-11-15 14:31:17,392 [INFO] [MainThread] [root/main.py:113]: Debug mode enabled.
+2026-11-15 14:31:17,779 [INFO] [yasb-audio-visualizer] [root/loopback.py:728]: Audio visualizer: loopback capture open (48000 Hz, 2 ch, 32-bit float)
+2026-11-15 14:31:17,785 [DEBUG] [MainThread] [systray_widget/systray.py:612]: Loading state from C:\Users\wristkyion\AppData\Local\YASB\systray_state_AUOPTRONICSDISPLAY1.json
+2026-11-15 14:31:17,786 [DEBUG] [MainThread] [systray_hook/systray_hook.py:137]: Creating pipe \\.\pipe\yasb_systray_monitor...
+2026-11-15 14:31:17,787 [DEBUG] [SystrayHook] [systray_widget/systray.py:78]: Systray hook thread is starting...
+2026-11-15 14:31:17,860 [INFO] [SystrayHook] [systray_hook/systray_hook.py:193]: Injecting into Explorer (PID: 6288)
+2026-11-15 14:31:17,879 [DEBUG] [SystrayHook] [systray_hook/systray_hook.py:200]: Waiting for DLL to connect
+2026-11-15 14:31:17,880 [DEBUG] [SystrayHook] [systray_hook/systray_hook.py:219]: DLL Connected
+2026-11-15 14:31:17,881 [DEBUG] [SystrayHook] [systray_hook/systray_hook.py:293]: [DLL] Pipeline connected.
+2026-11-15 14:31:17,881 [DEBUG] [SystrayHook] [systray_hook/systray_hook.py:293]: [DLL] Successfully subclassed Shell_TrayWnd
+2026-11-15 14:31:17,881 [DEBUG] [SystrayHook] [systray_hook/systray_hook.py:293]: [DLL] Watchdog active. Sleeping until host drops.
+2026-11-15 14:31:17,892 [INFO] [MainThread] [root/api.py:65]: GitHubDataManager started...
+2026-11-15 14:31:17,928 [ERROR] [Thread-7 (_fetch)] [root/api.py:275]: GitHubDataManager no internet connection. Unable to fetch notifications.
+2026-11-15 14:31:17,948 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-11-15 14:31:18,814 [DEBUG] [MainThread] [root/service.py:521]: BrightnessService found monitor: 65537 device=\\.\DISPLAY1
+2026-11-15 14:31:18,814 [INFO] [MainThread] [root/service.py:225]: BrightnessService started with 1 monitors
+2026-11-15 14:31:18,837 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-11-15 14:31:18,864 [DEBUG] [BrightnessDetect] [root/service.py:454]: Monitor 65537 metadata: Built-in display internal=True conn=Unknown
+2026-11-15 14:31:18,951 [DEBUG] [MainThread] [root/app_bar.py:137]: Bar primary-bar Created on Screen: \\.\DISPLAY1 [Bar Height: 0px, DPI Scale: 1.0]
+2026-11-15 14:31:18,996 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:181]: TaskbarWindowManager is starting...
+2026-11-15 14:31:19,002 [INFO] [MainThread] [root/bar_manager.py:242]: Starting HotkeyListener...
+2026-11-15 14:31:19,003 [INFO] [MainThread] [root/bar_manager.py:103]: Starting WindowsNotificationEventListener...
+2026-11-15 14:31:19,003 [INFO] [MainThread] [root/bar_manager.py:103]: Starting KomorebiEventListener...
+2026-11-15 14:31:19,003 [DEBUG] [Dummy-10] [root/hotkeys.py:199]: Registered hotkey alt+shift+w
+2026-11-15 14:31:19,004 [DEBUG] [Dummy-10] [root/hotkeys.py:199]: Registered hotkey alt+space
+2026-11-15 14:31:19,005 [INFO] [Dummy-11] [root/event_listener.py:54]: Created named pipe yasb-2ab3f6a2-e0be-11f1-8a38-2ad0434d36e2
+2026-11-15 14:31:19,005 [DEBUG] [Dummy-11] [root/event_listener.py:126]: Waiting for Komorebi to subscribe to named pipe yasb-2ab3f6a2-e0be-11f1-8a38-2ad0434d36e2
+2026-11-15 14:31:19,007 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\wristkyion\.config\yasb
+2026-11-15 14:31:19,009 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-11-15 14:31:19,052 [INFO] [Dummy-14] [root/windows_notification.py:161]: Notification service started (WNF_SHEL_NOTIFICATION_TOTAL)
+2026-11-15 14:31:19,053 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-11-15 14:31:19,116 [WARNING] [UpdateChecker] [root/update_service.py:300]: Network error checking for updates: [Errno 11001] getaddrinfo failed
+2026-11-15 14:31:19,117 [WARNING] [UpdateChecker] [root/update_service.py:430]: Background update check failed: <urlopen error [Errno 11001] getaddrinfo failed>
+2026-11-15 14:31:19,117 [WARNING] [Dummy-11] [root/event_listener.py:134]: Komorebi failed to subscribe named pipe. Komorebi is not running, please start Komorebi.
+2026-11-15 14:31:19,287 [DEBUG] [BrightnessDetect] [root/service.py:417]: Monitor 65537: DDC=False scheme=True internal=True name=Built-in display
+2026-11-15 14:31:19,384 [DEBUG] [MainThread] [systray_widget/systray.py:257]: Sending TaskbarCreated message: 49247
+2026-11-15 14:31:19,385 [DEBUG] [MainThread] [systray_widget/systray.py:259]: Systray icons refreshed
+2026-11-15 14:31:19,388 [ERROR] [MainThread] [open_meteo/api.py:108]: No internet connection or host not found. Unable to fetch weather.
+2026-11-15 14:31:19,388 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+2026-11-15 14:31:20,339 [DEBUG] [Dummy-17] [root/icon_extractor.py:316]: URL icon resolve failed for C:\ProgramData\Microsoft\Windows\Start Menu\Programs\S.T.A.L.K.E.R. Anomaly [GOG.com]\Documents\Support.url: File contains no section headers.
+file: 'C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\S.T.A.L.K.E.R. Anomaly [GOG.com]\\Documents\\Support.url', line: 1
+'\ufeff[InternetShortcut]\n'
+2026-11-15 14:31:25,260 [DEBUG] [yasb-audio-visualizer] [root/loopback.py:662]: Audio visualizer: loopback stream invalidated ((-2004287484, None, (None, None, None, 0, None))), reopening
+2026-11-15 14:31:25,261 [DEBUG] [Dummy-20] [root/loopback.py:290]: Audio visualizer: default device changed flow=0 role=0 device={0.0.0.00000000}.{9096ff80-db7b-4b0a-ae18-f49b9f80f6d1}
+2026-11-15 14:31:25,266 [DEBUG] [Dummy-21] [root/loopback.py:290]: Audio visualizer: default device changed flow=0 role=1 device={0.0.0.00000000}.{9096ff80-db7b-4b0a-ae18-f49b9f80f6d1}
+2026-11-15 14:31:25,597 [DEBUG] [Dummy-23] [root/loopback.py:290]: Audio visualizer: default device changed flow=0 role=0 device={0.0.0.00000000}.{18d9ed62-0360-4961-bc6c-17bcc88432e4}
+2026-11-15 14:31:25,601 [DEBUG] [Dummy-24] [root/loopback.py:290]: Audio visualizer: default device changed flow=0 role=1 device={0.0.0.00000000}.{18d9ed62-0360-4961-bc6c-17bcc88432e4}
+2026-11-15 14:31:25,601 [DEBUG] [Dummy-24] [root/loopback.py:301]: Audio visualizer: default device change accepted, reopening
+2026-11-15 14:31:25,627 [INFO] [yasb-audio-visualizer] [root/loopback.py:728]: Audio visualizer: loopback capture open (48000 Hz, 2 ch, 32-bit float)
+2026-11-15 14:31:27,816 [DEBUG] [Dummy-26] [root/loopback.py:290]: Audio visualizer: default device changed flow=0 role=0 device={0.0.0.00000000}.{9096ff80-db7b-4b0a-ae18-f49b9f80f6d1}
+2026-11-15 14:31:27,817 [DEBUG] [Dummy-27] [root/loopback.py:290]: Audio visualizer: default device changed flow=0 role=1 device={0.0.0.00000000}.{9096ff80-db7b-4b0a-ae18-f49b9f80f6d1}
+2026-11-15 14:31:27,818 [DEBUG] [Dummy-27] [root/loopback.py:301]: Audio visualizer: default device change accepted, reopening
+2026-11-15 14:31:27,847 [INFO] [yasb-audio-visualizer] [root/loopback.py:728]: Audio visualizer: loopback capture open (48000 Hz, 2 ch, 32-bit float)
+2026-11-15 14:31:28,488 [INFO] [MainThread] [root/service.py:223]: Quick Launch rebuilding app list after install/uninstall detected
+2026-11-15 14:31:29,384 [ERROR] [MainThread] [open_meteo/api.py:108]: No internet connection or host not found. Unable to fetch weather.
+2026-11-15 14:31:29,384 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+2026-11-15 14:31:30,180 [DEBUG] [Dummy-34] [root/icon_extractor.py:316]: URL icon resolve failed for C:\ProgramData\Microsoft\Windows\Start Menu\Programs\S.T.A.L.K.E.R. Anomaly [GOG.com]\Documents\Support.url: File contains no section headers.
+file: 'C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\S.T.A.L.K.E.R. Anomaly [GOG.com]\\Documents\\Support.url', line: 1
+'\ufeff[InternetShortcut]\n'
+2026-11-15 14:31:39,399 [ERROR] [MainThread] [open_meteo/api.py:108]: No internet connection or host not found. Unable to fetch weather.
+2026-11-15 14:31:39,399 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+2026-11-15 14:31:49,402 [ERROR] [MainThread] [open_meteo/api.py:108]: No internet connection or host not found. Unable to fetch weather.
+2026-11-15 14:31:49,402 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+2026-11-15 14:31:59,411 [ERROR] [MainThread] [open_meteo/api.py:108]: No internet connection or host not found. Unable to fetch weather.
+2026-11-15 14:31:59,411 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+2026-11-15 14:32:09,412 [ERROR] [MainThread] [open_meteo/api.py:108]: No internet connection or host not found. Unable to fetch weather.
+2026-11-15 14:32:09,412 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+2026-11-15 14:32:19,423 [ERROR] [MainThread] [open_meteo/api.py:108]: No internet connection or host not found. Unable to fetch weather.
+2026-11-15 14:32:19,423 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+2026-11-15 14:41:35,053 [ERROR] [Thread-267 (_fetch)] [root/api.py:275]: GitHubDataManager no internet connection. Unable to fetch notifications.
+2026-11-15 14:47:18,302 [DEBUG] [Dummy-410] [root/loopback.py:290]: Audio visualizer: default device changed flow=0 role=0 device={0.0.0.00000000}.{18d9ed62-0360-4961-bc6c-17bcc88432e4}
+2026-11-15 14:47:18,305 [DEBUG] [Dummy-411] [root/loopback.py:290]: Audio visualizer: default device changed flow=0 role=1 device={0.0.0.00000000}.{18d9ed62-0360-4961-bc6c-17bcc88432e4}
+2026-11-15 14:47:18,306 [DEBUG] [Dummy-411] [root/loopback.py:301]: Audio visualizer: default device change accepted, reopening
+2026-11-15 14:47:18,619 [DEBUG] [Dummy-413] [root/loopback.py:290]: Audio visualizer: default device changed flow=0 role=0 device={0.0.0.00000000}.{9096ff80-db7b-4b0a-ae18-f49b9f80f6d1}
+2026-11-15 14:47:18,621 [DEBUG] [Dummy-414] [root/loopback.py:290]: Audio visualizer: default device changed flow=0 role=1 device={0.0.0.00000000}.{9096ff80-db7b-4b0a-ae18-f49b9f80f6d1}
+2026-11-15 14:47:18,621 [DEBUG] [Dummy-414] [root/loopback.py:301]: Audio visualizer: default device change accepted, reopening
+2026-11-15 14:47:18,623 [INFO] [yasb-audio-visualizer] [root/loopback.py:728]: Audio visualizer: loopback capture open (48000 Hz, 2 ch, 32-bit float)
+2026-11-15 14:47:18,635 [INFO] [yasb-audio-visualizer] [root/loopback.py:728]: Audio visualizer: loopback capture open (48000 Hz, 2 ch, 32-bit float)
+2026-11-15 14:47:26,099 [INFO] [MainThread] [root/bar_helper.py:578]: AppBarManager need to re-register 1 bar
+2026-11-15 14:47:26,101 [DEBUG] [MainThread] [root/app_bar.py:137]: Bar primary-bar Created on Screen: \\.\DISPLAY1 [Bar Height: 0px, DPI Scale: 1.0]
+2026-11-15 14:47:26,101 [INFO] [MainThread] [root/bar_helper.py:587]: Re-registered AppBar for primary-bar_DISPLAY1_a4b3c8ef (space reservation + fullscreen)
+2026-11-15 14:47:39,560 [ERROR] [MainThread] [open_meteo/api.py:115]: Open-Meteo response error None: TemporaryNetworkFailureError 7
+2026-11-15 14:47:39,560 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+2026-11-15 14:47:39,562 [ERROR] [MainThread] [open_meteo/api.py:115]: Open-Meteo response error None: TemporaryNetworkFailureError 7
+2026-11-15 14:47:39,562 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+2026-11-15 14:47:49,557 [ERROR] [MainThread] [open_meteo/api.py:108]: No internet connection or host not found. Unable to fetch weather.
+2026-11-15 14:47:49,558 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+2026-11-15 14:47:59,560 [ERROR] [MainThread] [open_meteo/api.py:108]: No internet connection or host not found. Unable to fetch weather.
+2026-11-15 14:47:59,561 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+2026-11-15 14:48:09,556 [ERROR] [MainThread] [open_meteo/api.py:108]: No internet connection or host not found. Unable to fetch weather.
+2026-11-15 14:48:09,556 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+2026-11-15 14:48:19,558 [ERROR] [MainThread] [open_meteo/api.py:108]: No internet connection or host not found. Unable to fetch weather.
+2026-11-15 14:48:19,558 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+2026-11-15 14:48:29,558 [ERROR] [MainThread] [open_meteo/api.py:108]: No internet connection or host not found. Unable to fetch weather.
+2026-11-15 14:48:29,558 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+2026-11-15 14:48:29,735 [INFO] [MainThread] [root/service.py:223]: Quick Launch rebuilding app list after install/uninstall detected
+2026-11-15 14:48:31,123 [DEBUG] [Dummy-449] [root/icon_extractor.py:316]: URL icon resolve failed for C:\ProgramData\Microsoft\Windows\Start Menu\Programs\S.T.A.L.K.E.R. Anomaly [GOG.com]\Documents\Support.url: File contains no section headers.
+file: 'C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\S.T.A.L.K.E.R. Anomaly [GOG.com]\\Documents\\Support.url', line: 1
+'\ufeff[InternetShortcut]\n'
+2026-11-15 14:48:39,555 [ERROR] [MainThread] [open_meteo/api.py:108]: No internet connection or host not found. Unable to fetch weather.
+2026-11-15 14:48:39,555 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+2026-11-15 14:48:49,560 [ERROR] [MainThread] [open_meteo/api.py:108]: No internet connection or host not found. Unable to fetch weather.
+2026-11-15 14:48:49,560 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+2026-11-15 14:48:59,566 [ERROR] [MainThread] [open_meteo/api.py:108]: No internet connection or host not found. Unable to fetch weather.
+2026-11-15 14:48:59,566 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+2026-11-15 14:49:09,557 [ERROR] [MainThread] [open_meteo/api.py:108]: No internet connection or host not found. Unable to fetch weather.
+2026-11-15 14:49:09,557 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+2026-11-15 14:49:19,559 [ERROR] [MainThread] [open_meteo/api.py:108]: No internet connection or host not found. Unable to fetch weather.
+2026-11-15 14:49:19,559 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+2026-11-15 14:49:29,558 [ERROR] [MainThread] [open_meteo/api.py:108]: No internet connection or host not found. Unable to fetch weather.
+2026-11-15 14:49:29,558 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+2026-11-15 14:49:39,569 [ERROR] [MainThread] [open_meteo/api.py:108]: No internet connection or host not found. Unable to fetch weather.
+2026-11-15 14:49:39,569 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+2026-11-15 14:49:49,576 [ERROR] [MainThread] [open_meteo/api.py:108]: No internet connection or host not found. Unable to fetch weather.
+2026-11-15 14:49:49,576 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+2026-11-15 14:49:59,572 [ERROR] [MainThread] [open_meteo/api.py:108]: No internet connection or host not found. Unable to fetch weather.
+2026-11-15 14:49:59,573 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+2026-11-15 14:50:09,573 [ERROR] [MainThread] [open_meteo/api.py:108]: No internet connection or host not found. Unable to fetch weather.
+2026-11-15 14:50:09,573 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+2026-11-15 14:50:19,588 [ERROR] [MainThread] [open_meteo/api.py:108]: No internet connection or host not found. Unable to fetch weather.
+2026-11-15 14:50:19,588 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+2026-11-15 14:50:29,586 [ERROR] [MainThread] [open_meteo/api.py:108]: No internet connection or host not found. Unable to fetch weather.
+2026-11-15 14:50:29,586 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+2026-11-15 14:50:39,599 [ERROR] [MainThread] [open_meteo/api.py:108]: No internet connection or host not found. Unable to fetch weather.
+2026-11-15 14:50:39,600 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+2026-11-15 14:50:49,601 [ERROR] [MainThread] [open_meteo/api.py:108]: No internet connection or host not found. Unable to fetch weather.
+2026-11-15 14:50:49,601 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+2026-11-15 14:50:59,614 [ERROR] [MainThread] [open_meteo/api.py:108]: No internet connection or host not found. Unable to fetch weather.
+2026-11-15 14:50:59,614 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+2026-11-15 14:51:09,609 [ERROR] [MainThread] [open_meteo/api.py:108]: No internet connection or host not found. Unable to fetch weather.
+2026-11-15 14:51:09,609 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+2026-11-15 14:51:35,867 [ERROR] [Thread-514 (_fetch)] [root/api.py:275]: GitHubDataManager no internet connection. Unable to fetch notifications.
+2026-11-15 14:51:40,346 [ERROR] [MainThread] [open_meteo/api.py:115]: Open-Meteo response error None: RemoteHostClosedError 2
+2026-11-15 14:51:40,347 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+2026-11-15 14:51:40,348 [ERROR] [MainThread] [open_meteo/api.py:115]: Open-Meteo response error None: RemoteHostClosedError 2
+2026-11-15 14:51:40,349 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+2026-11-15 14:51:50,396 [ERROR] [MainThread] [open_meteo/api.py:115]: Open-Meteo response error None: UnknownNetworkError 99
+2026-11-15 14:51:50,396 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+2026-11-15 14:52:00,439 [ERROR] [MainThread] [open_meteo/api.py:115]: Open-Meteo response error None: UnknownNetworkError 99
+2026-11-15 14:52:00,439 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+2026-11-15 14:52:10,474 [ERROR] [MainThread] [open_meteo/api.py:115]: Open-Meteo response error None: UnknownNetworkError 99
+2026-11-15 14:52:10,475 [WARNING] [MainThread] [root/open_meteo.py:871]: Error processing Open-Meteo data: Weather data is empty.
+2026-11-15 14:55:02,606 [DEBUG] [Thread-12] [root/watcher.py:90]: Config file modified: c:\users\wristkyion\.config\yasb\config.yaml
+2026-11-15 14:55:02,611 [ERROR] [MainThread] [root/bar_manager.py:80]: Error loading config: while scanning a double-quoted scalar
+  in "C:\Users\wristkyion\.config\yasb\config.yaml", line 73, column 19
+found unknown escape character 'd'
+  in "C:\Users\wristkyion\.config\yasb\config.yaml", line 73, column 23
+2026-11-15 14:55:02,611 [DEBUG] [Thread-12] [root/watcher.py:90]: Config file modified: c:\users\wristkyion\.config\yasb\config.yaml
+2026-11-15 14:55:02,616 [ERROR] [MainThread] [root/bar_manager.py:80]: Error loading config: while scanning a double-quoted scalar
+  in "C:\Users\wristkyion\.config\yasb\config.yaml", line 73, column 19
+found unknown escape character 'd'
+  in "C:\Users\wristkyion\.config\yasb\config.yaml", line 73, column 23
+2026-11-15 14:55:07,262 [DEBUG] [Thread-12] [root/watcher.py:90]: Config file modified: c:\users\wristkyion\.config\yasb\config.yaml
+2026-11-15 14:55:07,267 [ERROR] [MainThread] [root/bar_manager.py:80]: Error loading config: while scanning a double-quoted scalar
+  in "C:\Users\wristkyion\.config\yasb\config.yaml", line 73, column 19
+found unknown escape character 'd'
+  in "C:\Users\wristkyion\.config\yasb\config.yaml", line 73, column 23
+2026-11-15 14:55:08,756 [DEBUG] [Thread-12] [root/watcher.py:90]: Config file modified: c:\users\wristkyion\.config\yasb\config.yaml
+2026-11-15 14:55:08,762 [ERROR] [MainThread] [root/bar_manager.py:80]: Error loading config: while scanning a double-quoted scalar
+  in "C:\Users\wristkyion\.config\yasb\config.yaml", line 73, column 19
+found unknown escape character 'd'
+  in "C:\Users\wristkyion\.config\yasb\config.yaml", line 73, column 23
+2026-11-15 14:55:10,350 [DEBUG] [Thread-12] [root/watcher.py:90]: Config file modified: c:\users\wristkyion\.config\yasb\config.yaml
+2026-11-15 14:55:10,383 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-11-15 14:55:10,489 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-11-15 14:55:10,489 [DEBUG] [MainThread] [cli_server/cli_server.py:210]: CLI server stopped
+2026-11-15 14:55:10,495 [INFO] [MainThread] [root/bar_manager.py:93]: Successfully loaded updated config and re-initialised all bars.
+2026-11-15 14:55:10,500 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping HotkeyListener...
+2026-11-15 14:55:10,502 [INFO] [MainThread] [root/bar_manager.py:119]: Stopping WindowsNotificationEventListener...
+2026-11-15 14:55:10,502 [INFO] [Dummy-14] [root/windows_notification.py:97]: Notification service stopped
+2026-11-15 14:55:10,503 [DEBUG] [Dummy-14] [root/windows_notification.py:178]: Unsubscribed from WNF notifications
+2026-11-15 14:55:10,504 [INFO] [MainThread] [root/bar_manager.py:119]: Stopping KomorebiEventListener...
+2026-11-15 14:55:10,506 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:208]: TaskbarWindowManager stopped
+2026-11-15 14:55:10,509 [DEBUG] [MainThread] [systray_widget/systray.py:594]: Saving state to C:\Users\wristkyion\AppData\Local\YASB\systray_state_AUOPTRONICSDISPLAY1.json
+2026-11-15 14:55:11,388 [INFO] [MainThread] [root/log.py:103]: YASB v2.0.7
+2026-11-15 14:55:11,389 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-11-15 14:55:11,390 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-11-15 14:55:11,455 [INFO] [MainThread] [root/main.py:113]: Debug mode enabled.
+2026-11-15 14:55:11,870 [INFO] [yasb-audio-visualizer] [root/loopback.py:728]: Audio visualizer: loopback capture open (48000 Hz, 2 ch, 32-bit float)
+2026-11-15 14:55:11,872 [DEBUG] [MainThread] [systray_widget/systray.py:612]: Loading state from C:\Users\wristkyion\AppData\Local\YASB\systray_state_AUOPTRONICSDISPLAY1.json
+2026-11-15 14:55:11,873 [DEBUG] [MainThread] [systray_hook/systray_hook.py:137]: Creating pipe \\.\pipe\yasb_systray_monitor...
+2026-11-15 14:55:11,875 [DEBUG] [SystrayHook] [systray_widget/systray.py:78]: Systray hook thread is starting...
+2026-11-15 14:55:12,069 [INFO] [MainThread] [root/api.py:65]: GitHubDataManager started...
+2026-11-15 14:55:12,146 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-11-15 14:55:12,152 [INFO] [SystrayHook] [systray_hook/systray_hook.py:193]: Injecting into Explorer (PID: 6288)
+2026-11-15 14:55:12,159 [DEBUG] [SystrayHook] [systray_hook/systray_hook.py:200]: Waiting for DLL to connect
+2026-11-15 14:55:12,160 [DEBUG] [SystrayHook] [systray_hook/systray_hook.py:219]: DLL Connected
+2026-11-15 14:55:12,161 [DEBUG] [SystrayHook] [systray_hook/systray_hook.py:293]: [DLL] Pipeline connected.
+2026-11-15 14:55:12,161 [DEBUG] [SystrayHook] [systray_hook/systray_hook.py:293]: [DLL] Successfully subclassed Shell_TrayWnd
+2026-11-15 14:55:12,162 [DEBUG] [SystrayHook] [systray_hook/systray_hook.py:293]: [DLL] Watchdog active. Sleeping until host drops.
+2026-11-15 14:55:13,322 [DEBUG] [MainThread] [root/service.py:521]: BrightnessService found monitor: 65537 device=\\.\DISPLAY1
+2026-11-15 14:55:13,322 [INFO] [MainThread] [root/service.py:225]: BrightnessService started with 1 monitors
+2026-11-15 14:55:13,353 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-11-15 14:55:13,367 [DEBUG] [BrightnessDetect] [root/service.py:454]: Monitor 65537 metadata: Built-in display internal=True conn=Unknown
+2026-11-15 14:55:13,464 [DEBUG] [MainThread] [root/app_bar.py:137]: Bar primary-bar Created on Screen: \\.\DISPLAY1 [Bar Height: 0px, DPI Scale: 1.0]
+2026-11-15 14:55:13,682 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:181]: TaskbarWindowManager is starting...
+2026-11-15 14:55:13,688 [INFO] [MainThread] [root/bar_manager.py:242]: Starting HotkeyListener...
+2026-11-15 14:55:13,689 [INFO] [MainThread] [root/bar_manager.py:103]: Starting KomorebiEventListener...
+2026-11-15 14:55:13,689 [INFO] [MainThread] [root/bar_manager.py:103]: Starting WindowsNotificationEventListener...
+2026-11-15 14:55:13,690 [DEBUG] [Dummy-10] [root/hotkeys.py:199]: Registered hotkey alt+shift+w
+2026-11-15 14:55:13,691 [DEBUG] [Dummy-10] [root/hotkeys.py:199]: Registered hotkey alt+space
+2026-11-15 14:55:13,691 [INFO] [Dummy-11] [root/event_listener.py:54]: Created named pipe yasb-81d78f83-e0c1-11f1-843d-2ad0434d36e2
+2026-11-15 14:55:13,691 [DEBUG] [Dummy-11] [root/event_listener.py:126]: Waiting for Komorebi to subscribe to named pipe yasb-81d78f83-e0c1-11f1-843d-2ad0434d36e2
+2026-11-15 14:55:13,693 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\wristkyion\.config\yasb
+2026-11-15 14:55:13,694 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-11-15 14:55:13,734 [INFO] [Dummy-14] [root/windows_notification.py:161]: Notification service started (WNF_SHEL_NOTIFICATION_TOTAL)
+2026-11-15 14:55:13,735 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-11-15 14:55:13,791 [WARNING] [Dummy-11] [root/event_listener.py:134]: Komorebi failed to subscribe named pipe. Komorebi is not running, please start Komorebi.
+2026-11-15 14:55:13,816 [DEBUG] [BrightnessDetect] [root/service.py:417]: Monitor 65537: DDC=False scheme=True internal=True name=Built-in display
+2026-11-15 14:55:14,024 [DEBUG] [MainThread] [systray_widget/systray.py:257]: Sending TaskbarCreated message: 49247
+2026-11-15 14:55:14,025 [DEBUG] [MainThread] [systray_widget/systray.py:259]: Systray icons refreshed
+2026-11-15 14:55:14,847 [DEBUG] [Dummy-17] [root/icon_extractor.py:316]: URL icon resolve failed for C:\ProgramData\Microsoft\Windows\Start Menu\Programs\S.T.A.L.K.E.R. Anomaly [GOG.com]\Documents\Support.url: File contains no section headers.
+file: 'C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\S.T.A.L.K.E.R. Anomaly [GOG.com]\\Documents\\Support.url', line: 1
+'\ufeff[InternetShortcut]\n'
+2026-11-15 14:55:18,260 [INFO] [MainThread] [root/bar_helper.py:578]: AppBarManager need to re-register 1 bar
+2026-11-15 14:55:18,262 [DEBUG] [MainThread] [root/app_bar.py:137]: Bar primary-bar Created on Screen: \\.\DISPLAY1 [Bar Height: 0px, DPI Scale: 1.0]
+2026-11-15 14:55:18,263 [INFO] [MainThread] [root/bar_helper.py:587]: Re-registered AppBar for primary-bar_DISPLAY1_e6665491 (space reservation + fullscreen)
+Windows fatal exception: code 0x80010108
+
+Thread 0x00000350 [Thread-12] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 369 in wait
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\queue.py", line 199 in get
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 379 in dispatch_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 213 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00000b18 [Thread-13] (most recent call first):
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\winapi.py", line 326 in read_directory_changes
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\winapi.py", line 380 in read_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\read_directory_changes.py", line 67 in _read_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\read_directory_changes.py", line 70 in queue_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 158 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00001a2c [WindowsNotificationEventListener] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\windows_events.py", line 778 in _poll
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\windows_events.py", line 446 in select
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\base_events.py", line 2019 in _run_once
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\base_events.py", line 678 in run_forever
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\base_events.py", line 707 in run_until_complete
+  File "D:\a\yasb\yasb\src\core\widgets\services\notifications\windows_notification.py", line 84 in run
+
+Thread 0x00001828 [KomorebiEventListener] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 373 in wait
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 670 in wait
+  File "D:\a\yasb\yasb\src\core\widgets\services\komorebi\event_listener.py", line 139 in _wait_until_komorebi_online
+  File "D:\a\yasb\yasb\src\core\widgets\services\komorebi\event_listener.py", line 69 in run
+
+Thread 0x0000072c [HotkeyListener] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\hotkeys.py", line 252 in run
+
+Thread 0x00001a80 [BrightnessPolicy] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\brightness\service.py", line 315 in _policy_message_loop
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x000029fc [SystrayHook] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\systray\systray_hook.py", line 247 in run
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\systray.py", line 79 in run
+
+Thread 0x00000aa0 [yasb-audio-visualizer] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\audio_visualizer\loopback.py", line 644 in _capture_loop
+  File "D:\a\yasb\yasb\src\core\widgets\services\audio_visualizer\loopback.py", line 573 in _capture_thread
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x000015e4 [QueryWorker] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\quick_launch\workers.py", line 61 in run
+
+Thread 0x0000219c [_EventWorker] (most recent call first):
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 147 in _poll
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 72 in select
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 199 in run
+
+Thread 0x000019e8 [LogPipeServer] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\bindings\kernel32.py", line 291 in ConnectNamedPipe
+  File "D:\a\yasb\yasb\src\core\utils\cli_server.py", line 138 in _run_server
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x000031b4 [CLIPipeServer] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\bindings\kernel32.py", line 291 in ConnectNamedPipe
+  File "D:\a\yasb\yasb\src\core\utils\cli_server.py", line 235 in _run_server
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00002a64 (most recent call first):
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\__init__.py", line 404 in run_forever
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\__init__.py", line 428 in run_until_complete
+  File "main.py", line 75 in main
+  File "main.py", line 178 in <module>
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\freeze_core\initscripts\console.py", line 43 in run
+  File "src/freeze_core/initscripts/__startup__.py", line 147 in run
+Windows fatal exception: code 0x80010108
+
+Thread 0x00000350 [Thread-12] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 369 in wait
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\queue.py", line 199 in get
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 379 in dispatch_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 213 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00000b18 [Thread-13] (most recent call first):
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\winapi.py", line 326 in read_directory_changes
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\winapi.py", line 380 in read_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\read_directory_changes.py", line 67 in _read_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\read_directory_changes.py", line 70 in queue_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 158 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00001a2c [WindowsNotificationEventListener] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\windows_events.py", line 778 in _poll
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\windows_events.py", line 446 in select
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\base_events.py", line 2019 in _run_once
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\base_events.py", line 678 in run_forever
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\base_events.py", line 707 in run_until_complete
+  File "D:\a\yasb\yasb\src\core\widgets\services\notifications\windows_notification.py", line 84 in run
+
+Thread 0x00001828 [KomorebiEventListener] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 373 in wait
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 670 in wait
+  File "D:\a\yasb\yasb\src\core\widgets\services\komorebi\event_listener.py", line 139 in _wait_until_komorebi_online
+  File "D:\a\yasb\yasb\src\core\widgets\services\komorebi\event_listener.py", line 69 in run
+
+Thread 0x0000072c [HotkeyListener] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\hotkeys.py", line 252 in run
+
+Thread 0x00001a80 [BrightnessPolicy] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\brightness\service.py", line 315 in _policy_message_loop
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x000029fc [SystrayHook] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\systray\systray_hook.py", line 247 in run
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\systray.py", line 79 in run
+
+Thread 0x00000aa0 [yasb-audio-visualizer] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\audio_visualizer\loopback.py", line 644 in _capture_loop
+  File "D:\a\yasb\yasb\src\core\widgets\services\audio_visualizer\loopback.py", line 573 in _capture_thread
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x000015e4 [QueryWorker] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\quick_launch\workers.py", line 61 in run
+
+Thread 0x0000219c [_EventWorker] (most recent call first):
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 147 in _poll
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 72 in select
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 199 in run
+
+Thread 0x000019e8 [LogPipeServer] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\bindings\kernel32.py", line 291 in ConnectNamedPipe
+  File "D:\a\yasb\yasb\src\core\utils\cli_server.py", line 138 in _run_server
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x000031b4 [CLIPipeServer] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\bindings\kernel32.py", line 291 in ConnectNamedPipe
+  File "D:\a\yasb\yasb\src\core\utils\cli_server.py", line 235 in _run_server
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00002a64 (most recent call first):
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\__init__.py", line 404 in run_forever
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\__init__.py", line 428 in run_until_complete
+  File "main.py", line 75 in main
+  File "main.py", line 178 in <module>
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\freeze_core\initscripts\console.py", line 43 in run
+  File "src/freeze_core/initscripts/__startup__.py", line 147 in run
+Windows fatal exception: code 0x80010108
+
+Thread 0x00000350 [Thread-12] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 369 in wait
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\queue.py", line 199 in get
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 379 in dispatch_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 213 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00000b18 [Thread-13] (most recent call first):
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\winapi.py", line 326 in read_directory_changes
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\winapi.py", line 380 in read_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\read_directory_changes.py", line 67 in _read_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\read_directory_changes.py", line 70 in queue_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 158 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00001a2c [WindowsNotificationEventListener] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\windows_events.py", line 778 in _poll
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\windows_events.py", line 446 in select
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\base_events.py", line 2019 in _run_once
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\base_events.py", line 678 in run_forever
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\base_events.py", line 707 in run_until_complete
+  File "D:\a\yasb\yasb\src\core\widgets\services\notifications\windows_notification.py", line 84 in run
+
+Thread 0x00001828 [KomorebiEventListener] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 373 in wait
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 670 in wait
+  File "D:\a\yasb\yasb\src\core\widgets\services\komorebi\event_listener.py", line 139 in _wait_until_komorebi_online
+  File "D:\a\yasb\yasb\src\core\widgets\services\komorebi\event_listener.py", line 69 in run
+
+Thread 0x0000072c [HotkeyListener] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\hotkeys.py", line 252 in run
+
+Thread 0x00001a80 [BrightnessPolicy] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\brightness\service.py", line 315 in _policy_message_loop
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x000029fc [SystrayHook] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\systray\systray_hook.py", line 247 in run
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\systray.py", line 79 in run
+
+Thread 0x00000aa0 [yasb-audio-visualizer] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\audio_visualizer\loopback.py", line 644 in _capture_loop
+  File "D:\a\yasb\yasb\src\core\widgets\services\audio_visualizer\loopback.py", line 573 in _capture_thread
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x000015e4 [QueryWorker] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\quick_launch\workers.py", line 61 in run
+
+Thread 0x0000219c [_EventWorker] (most recent call first):
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 147 in _poll
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 72 in select
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 199 in run
+
+Thread 0x000019e8 [LogPipeServer] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\bindings\kernel32.py", line 291 in ConnectNamedPipe
+  File "D:\a\yasb\yasb\src\core\utils\cli_server.py", line 138 in _run_server
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x000031b4 [CLIPipeServer] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\bindings\kernel32.py", line 291 in ConnectNamedPipe
+  File "D:\a\yasb\yasb\src\core\utils\cli_server.py", line 235 in _run_server
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00002a64 (most recent call first):
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\__init__.py", line 404 in run_forever
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\__init__.py", line 428 in run_until_complete
+  File "main.py", line 75 in main
+  File "main.py", line 178 in <module>
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\freeze_core\initscripts\console.py", line 43 in run
+  File "src/freeze_core/initscripts/__startup__.py", line 147 in run
+2026-11-15 16:03:27,668 [INFO] [MainThread] [root/service.py:223]: Quick Launch rebuilding app list after install/uninstall detected
+2026-11-15 16:03:30,643 [DEBUG] [Dummy-1646] [root/icon_extractor.py:316]: URL icon resolve failed for C:\ProgramData\Microsoft\Windows\Start Menu\Programs\S.T.A.L.K.E.R. Anomaly [GOG.com]\Documents\Support.url: File contains no section headers.
+file: 'C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\S.T.A.L.K.E.R. Anomaly [GOG.com]\\Documents\\Support.url', line: 1
+'\ufeff[InternetShortcut]\n'
+2026-11-15 16:05:28,160 [ERROR] [Thread-1687 (_fetch)] [root/api.py:281]: GitHubDataManager an unexpected error occurred: The read operation timed out
+2026-11-15 16:11:13,450 [DEBUG] [Thread-12] [root/watcher.py:90]: Config file modified: c:\users\wristkyion\.config\yasb\config.yaml
+2026-11-15 16:11:13,504 [INFO] [MainThread] [root/controller.py:21]: Reloading Application because of config change.
+2026-11-15 16:11:13,606 [INFO] [MainThread] [cli_server/cli_server.py:114]: Log pipe server stopped
+2026-11-15 16:11:13,607 [DEBUG] [MainThread] [cli_server/cli_server.py:210]: CLI server stopped
+2026-11-15 16:11:13,620 [INFO] [MainThread] [root/bar_manager.py:93]: Successfully loaded updated config and re-initialised all bars.
+2026-11-15 16:11:13,631 [INFO] [MainThread] [root/bar_manager.py:111]: Stopping HotkeyListener...
+2026-11-15 16:11:13,634 [INFO] [MainThread] [root/bar_manager.py:119]: Stopping KomorebiEventListener...
+2026-11-15 16:11:13,635 [INFO] [MainThread] [root/bar_manager.py:119]: Stopping WindowsNotificationEventListener...
+2026-11-15 16:11:13,639 [INFO] [Dummy-14] [root/windows_notification.py:97]: Notification service stopped
+2026-11-15 16:11:13,639 [DEBUG] [Dummy-14] [root/windows_notification.py:178]: Unsubscribed from WNF notifications
+2026-11-15 16:11:13,645 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:208]: TaskbarWindowManager stopped
+2026-11-15 16:11:13,650 [DEBUG] [MainThread] [systray_widget/systray.py:594]: Saving state to C:\Users\wristkyion\AppData\Local\YASB\systray_state_AUOPTRONICSDISPLAY1.json
+2026-11-15 16:11:14,509 [INFO] [MainThread] [root/log.py:103]: YASB v2.0.7
+2026-11-15 16:11:14,510 [INFO] [CLIPipeServer] [cli_server/cli_server.py:216]: CLI server started v1.1.7
+2026-11-15 16:11:14,510 [INFO] [MainThread] [cli_server/cli_server.py:106]: Log pipe server started
+2026-11-15 16:11:14,577 [INFO] [MainThread] [root/main.py:113]: Debug mode enabled.
+2026-11-15 16:11:14,933 [INFO] [yasb-audio-visualizer] [root/loopback.py:728]: Audio visualizer: loopback capture open (48000 Hz, 2 ch, 32-bit float)
+2026-11-15 16:11:14,936 [DEBUG] [MainThread] [systray_widget/systray.py:612]: Loading state from C:\Users\wristkyion\AppData\Local\YASB\systray_state_AUOPTRONICSDISPLAY1.json
+2026-11-15 16:11:14,936 [DEBUG] [MainThread] [systray_hook/systray_hook.py:137]: Creating pipe \\.\pipe\yasb_systray_monitor...
+2026-11-15 16:11:14,937 [DEBUG] [SystrayHook] [systray_widget/systray.py:78]: Systray hook thread is starting...
+2026-11-15 16:11:15,043 [INFO] [MainThread] [root/api.py:65]: GitHubDataManager started...
+2026-11-15 16:11:15,096 [INFO] [MainThread] [root/service.py:52]: AudioOutputService starting...
+2026-11-15 16:11:15,097 [INFO] [SystrayHook] [systray_hook/systray_hook.py:193]: Injecting into Explorer (PID: 6288)
+2026-11-15 16:11:15,101 [DEBUG] [SystrayHook] [systray_hook/systray_hook.py:200]: Waiting for DLL to connect
+2026-11-15 16:11:15,102 [DEBUG] [SystrayHook] [systray_hook/systray_hook.py:219]: DLL Connected
+2026-11-15 16:11:15,102 [DEBUG] [SystrayHook] [systray_hook/systray_hook.py:293]: [DLL] Pipeline connected.
+2026-11-15 16:11:15,103 [DEBUG] [SystrayHook] [systray_hook/systray_hook.py:293]: [DLL] Successfully subclassed Shell_TrayWnd
+2026-11-15 16:11:15,103 [DEBUG] [SystrayHook] [systray_hook/systray_hook.py:293]: [DLL] Watchdog active. Sleeping until host drops.
+2026-11-15 16:11:16,074 [DEBUG] [MainThread] [root/service.py:521]: BrightnessService found monitor: 65537 device=\\.\DISPLAY1
+2026-11-15 16:11:16,074 [INFO] [MainThread] [root/service.py:225]: BrightnessService started with 1 monitors
+2026-11-15 16:11:16,089 [INFO] [MainThread] [root/service.py:41]: AudioInputService starting...
+2026-11-15 16:11:16,110 [DEBUG] [BrightnessDetect] [root/service.py:454]: Monitor 65537 metadata: Built-in display internal=True conn=Unknown
+2026-11-15 16:11:16,163 [DEBUG] [MainThread] [root/app_bar.py:137]: Bar primary-bar Created on Screen: \\.\DISPLAY1 [Bar Height: 0px, DPI Scale: 1.0]
+2026-11-15 16:11:16,298 [INFO] [MainThread] [taskbar_window_manager/window_manager.py:181]: TaskbarWindowManager is starting...
+2026-11-15 16:11:16,302 [INFO] [MainThread] [root/bar_manager.py:242]: Starting HotkeyListener...
+2026-11-15 16:11:16,302 [INFO] [MainThread] [root/bar_manager.py:103]: Starting KomorebiEventListener...
+2026-11-15 16:11:16,303 [INFO] [MainThread] [root/bar_manager.py:103]: Starting WindowsNotificationEventListener...
+2026-11-15 16:11:16,303 [DEBUG] [Dummy-10] [root/hotkeys.py:199]: Registered hotkey alt+shift+w
+2026-11-15 16:11:16,304 [DEBUG] [Dummy-10] [root/hotkeys.py:199]: Registered hotkey alt+space
+2026-11-15 16:11:16,304 [INFO] [Dummy-11] [root/event_listener.py:54]: Created named pipe yasb-215f2b42-e0cc-11f1-b433-2ad0434d36e2
+2026-11-15 16:11:16,305 [DEBUG] [Dummy-11] [root/event_listener.py:126]: Waiting for Komorebi to subscribe to named pipe yasb-215f2b42-e0cc-11f1-b433-2ad0434d36e2
+2026-11-15 16:11:16,307 [INFO] [MainThread] [root/watcher.py:65]: Watching directory: c:\users\wristkyion\.config\yasb
+2026-11-15 16:11:16,307 [INFO] [MainThread] [root/watcher.py:104]: Created file watcher
+2026-11-15 16:11:16,357 [INFO] [Dummy-14] [root/windows_notification.py:161]: Notification service started (WNF_SHEL_NOTIFICATION_TOTAL)
+2026-11-15 16:11:16,359 [INFO] [MainThread] [root/update_service.py:434]: Background update checker started
+2026-11-15 16:11:16,413 [WARNING] [Dummy-11] [root/event_listener.py:134]: Komorebi failed to subscribe named pipe. Komorebi is not running, please start Komorebi.
+2026-11-15 16:11:16,557 [DEBUG] [BrightnessDetect] [root/service.py:417]: Monitor 65537: DDC=False scheme=True internal=True name=Built-in display
+2026-11-15 16:11:16,653 [DEBUG] [MainThread] [systray_widget/systray.py:257]: Sending TaskbarCreated message: 49247
+2026-11-15 16:11:16,653 [DEBUG] [MainThread] [systray_widget/systray.py:259]: Systray icons refreshed
+2026-11-15 16:11:17,307 [DEBUG] [Dummy-17] [root/icon_extractor.py:316]: URL icon resolve failed for C:\ProgramData\Microsoft\Windows\Start Menu\Programs\S.T.A.L.K.E.R. Anomaly [GOG.com]\Documents\Support.url: File contains no section headers.
+file: 'C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\S.T.A.L.K.E.R. Anomaly [GOG.com]\\Documents\\Support.url', line: 1
+'\ufeff[InternetShortcut]\n'
+2026-11-15 16:11:20,800 [INFO] [MainThread] [root/bar_helper.py:578]: AppBarManager need to re-register 1 bar
+2026-11-15 16:11:20,803 [DEBUG] [MainThread] [root/app_bar.py:137]: Bar primary-bar Created on Screen: \\.\DISPLAY1 [Bar Height: 0px, DPI Scale: 1.0]
+2026-11-15 16:11:20,805 [INFO] [MainThread] [root/bar_helper.py:587]: Re-registered AppBar for primary-bar_DISPLAY1_dc5f9e57 (space reservation + fullscreen)
+2026-11-15 16:11:27,028 [DEBUG] [Thread-22 (_run_after_command)] [root/manager.py:166]: Running command: powershell -NoProfile -WindowStyle Hidden -Command "Set-AllDesktopWallpapers '"D:/data/media/wallpaper\women-sky.jpg"'"
+2026-11-15 16:11:27,298 [ERROR] [Thread-22 (_run_after_command)] [root/manager.py:171]: error: Set-AllDesktopWallpapers : The term 'Set-AllDesktopWallpapers' is not recognized as the name of a cmdlet, function, 
+script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is 
+correct and try again.
+At line:1 char:1
++ Set-AllDesktopWallpapers 'D:/data/media/wallpaper\women-sky.jpg'
++ ~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Set-AllDesktopWallpapers:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+
+2026-11-15 16:12:26,027 [DEBUG] [Thread-47 (_run_after_command)] [root/manager.py:166]: Running command: powershell -NoProfile -WindowStyle Hidden -Command "Set-AllDesktopWallpapers '"D:/data/media/wallpaper\women-sky.jpg"'"
+2026-11-15 16:12:56,323 [DEBUG] [Thread-62 (_run_after_command)] [root/manager.py:166]: Running command: powershell -NoProfile -WindowStyle Hidden -Command "Set-AllDesktopWallpapers '"D:/data/media/wallpaper\nord\a_screenshot_of_a_computer.png"'"
+2026-11-15 16:13:20,854 [DEBUG] [Thread-75 (_run_after_command)] [root/manager.py:166]: Running command: powershell -NoProfile -WindowStyle Hidden -Command "Set-AllDesktopWallpapers '"D:/data/media/wallpaper\649533.png"'"
+2026-11-15 16:14:13,990 [DEBUG] [Thread-100 (_run_after_command)] [root/manager.py:166]: Running command: powershell -NoProfile -WindowStyle Hidden -Command "Set-AllDesktopWallpapers '"D:/data/media/wallpaper\a_red_and_blue_image_of_a_womans_face.png"'"
+Windows fatal exception: code 0x80010108
+
+Thread 0x00000958 [Thread-12] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 369 in wait
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\queue.py", line 199 in get
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 379 in dispatch_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 213 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00001bb4 [Thread-13] (most recent call first):
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\winapi.py", line 326 in read_directory_changes
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\winapi.py", line 380 in read_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\read_directory_changes.py", line 67 in _read_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\read_directory_changes.py", line 70 in queue_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 158 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x0000013c [WindowsNotificationEventListener] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\windows_events.py", line 778 in _poll
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\windows_events.py", line 446 in select
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\base_events.py", line 2019 in _run_once
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\base_events.py", line 678 in run_forever
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\base_events.py", line 707 in run_until_complete
+  File "D:\a\yasb\yasb\src\core\widgets\services\notifications\windows_notification.py", line 84 in run
+
+Thread 0x00001450 [KomorebiEventListener] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 373 in wait
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 670 in wait
+  File "D:\a\yasb\yasb\src\core\widgets\services\komorebi\event_listener.py", line 139 in _wait_until_komorebi_online
+  File "D:\a\yasb\yasb\src\core\widgets\services\komorebi\event_listener.py", line 69 in run
+
+Thread 0x00000be8 [HotkeyListener] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\hotkeys.py", line 252 in run
+
+Thread 0x00002a18 [BrightnessPolicy] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\brightness\service.py", line 315 in _policy_message_loop
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00002d2c [SystrayHook] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\systray\systray_hook.py", line 247 in run
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\systray.py", line 79 in run
+
+Thread 0x00000ddc [yasb-audio-visualizer] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\audio_visualizer\loopback.py", line 644 in _capture_loop
+  File "D:\a\yasb\yasb\src\core\widgets\services\audio_visualizer\loopback.py", line 573 in _capture_thread
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00002120 [QueryWorker] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\quick_launch\workers.py", line 61 in run
+
+Thread 0x00001f34 [_EventWorker] (most recent call first):
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 147 in _poll
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 72 in select
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 199 in run
+
+Thread 0x00002b1c [LogPipeServer] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\bindings\kernel32.py", line 291 in ConnectNamedPipe
+  File "D:\a\yasb\yasb\src\core\utils\cli_server.py", line 138 in _run_server
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00001c98 [CLIPipeServer] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\bindings\kernel32.py", line 291 in ConnectNamedPipe
+  File "D:\a\yasb\yasb\src\core\utils\cli_server.py", line 235 in _run_server
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00002e40 (most recent call first):
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\__init__.py", line 404 in run_forever
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\__init__.py", line 428 in run_until_complete
+  File "main.py", line 75 in main
+  File "main.py", line 178 in <module>
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\freeze_core\initscripts\console.py", line 43 in run
+  File "src/freeze_core/initscripts/__startup__.py", line 147 in run
+Windows fatal exception: code 0x80010108
+
+Thread 0x00000958 [Thread-12] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 369 in wait
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\queue.py", line 199 in get
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 379 in dispatch_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 213 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00001bb4 [Thread-13] (most recent call first):
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\winapi.py", line 326 in read_directory_changes
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\winapi.py", line 380 in read_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\read_directory_changes.py", line 67 in _read_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\read_directory_changes.py", line 70 in queue_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 158 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x0000013c [WindowsNotificationEventListener] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\windows_events.py", line 778 in _poll
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\windows_events.py", line 446 in select
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\base_events.py", line 2019 in _run_once
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\base_events.py", line 678 in run_forever
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\base_events.py", line 707 in run_until_complete
+  File "D:\a\yasb\yasb\src\core\widgets\services\notifications\windows_notification.py", line 84 in run
+
+Thread 0x00001450 [KomorebiEventListener] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 373 in wait
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 670 in wait
+  File "D:\a\yasb\yasb\src\core\widgets\services\komorebi\event_listener.py", line 139 in _wait_until_komorebi_online
+  File "D:\a\yasb\yasb\src\core\widgets\services\komorebi\event_listener.py", line 69 in run
+
+Thread 0x00000be8 [HotkeyListener] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\hotkeys.py", line 252 in run
+
+Thread 0x00002a18 [BrightnessPolicy] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\brightness\service.py", line 315 in _policy_message_loop
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00002d2c [SystrayHook] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\systray\systray_hook.py", line 247 in run
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\systray.py", line 79 in run
+
+Thread 0x00000ddc [yasb-audio-visualizer] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\audio_visualizer\loopback.py", line 644 in _capture_loop
+  File "D:\a\yasb\yasb\src\core\widgets\services\audio_visualizer\loopback.py", line 573 in _capture_thread
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00002120 [QueryWorker] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\quick_launch\workers.py", line 61 in run
+
+Thread 0x00001f34 [_EventWorker] (most recent call first):
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 147 in _poll
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 72 in select
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 199 in run
+
+Thread 0x00002b1c [LogPipeServer] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\bindings\kernel32.py", line 291 in ConnectNamedPipe
+  File "D:\a\yasb\yasb\src\core\utils\cli_server.py", line 138 in _run_server
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00001c98 [CLIPipeServer] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\bindings\kernel32.py", line 291 in ConnectNamedPipe
+  File "D:\a\yasb\yasb\src\core\utils\cli_server.py", line 235 in _run_server
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00002e40 (most recent call first):
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\__init__.py", line 404 in run_forever
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\__init__.py", line 428 in run_until_complete
+  File "main.py", line 75 in main
+  File "main.py", line 178 in <module>
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\freeze_core\initscripts\console.py", line 43 in run
+  File "src/freeze_core/initscripts/__startup__.py", line 147 in run
+2026-11-15 18:10:14,280 [DEBUG] [Thread-2844 (_run_after_command)] [root/manager.py:166]: Running command: powershell -NoProfile -WindowStyle Hidden -Command "Set-AllDesktopWallpapers '"D:/data/media/wallpaper\red-black-girl.png"'"
+2026-11-15 18:54:22,541 [INFO] [MainThread] [root/service.py:223]: Quick Launch rebuilding app list after install/uninstall detected
+2026-11-15 18:54:25,568 [DEBUG] [Dummy-3891] [root/icon_extractor.py:316]: URL icon resolve failed for C:\ProgramData\Microsoft\Windows\Start Menu\Programs\S.T.A.L.K.E.R. Anomaly [GOG.com]\Documents\Support.url: File contains no section headers.
+file: 'C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\S.T.A.L.K.E.R. Anomaly [GOG.com]\\Documents\\Support.url', line: 1
+'\ufeff[InternetShortcut]\n'
+2026-11-15 20:05:13,820 [INFO] [MainThread] [root/service.py:223]: Quick Launch rebuilding app list after install/uninstall detected
+2026-11-15 20:05:15,926 [DEBUG] [Dummy-5566] [root/icon_extractor.py:316]: URL icon resolve failed for C:\ProgramData\Microsoft\Windows\Start Menu\Programs\S.T.A.L.K.E.R. Anomaly [GOG.com]\Documents\Support.url: File contains no section headers.
+file: 'C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\S.T.A.L.K.E.R. Anomaly [GOG.com]\\Documents\\Support.url', line: 1
+'\ufeff[InternetShortcut]\n'
+2026-11-15 20:23:56,483 [DEBUG] [Thread-6009 (_run_after_command)] [root/manager.py:166]: Running command: powershell -NoProfile -WindowStyle Hidden -Command "Set-AllDesktopWallpapers '"D:/data/media/wallpaper\windows-11-dark-mode-blue-stock.jpg"'"
+2026-11-15 20:24:08,236 [DEBUG] [Thread-6016 (_run_after_command)] [root/manager.py:166]: Running command: powershell -NoProfile -WindowStyle Hidden -Command "Set-AllDesktopWallpapers '"D:/data/media/wallpaper\0391.jpg"'"
+2026-11-15 20:24:12,355 [DEBUG] [Thread-6021 (_run_after_command)] [root/manager.py:166]: Running command: powershell -NoProfile -WindowStyle Hidden -Command "Set-AllDesktopWallpapers '"D:/data/media/wallpaper\0499.jpg"'"
+2026-11-15 20:25:25,673 [INFO] [MainThread] [root/bar_helper.py:578]: AppBarManager need to re-register 1 bar
+2026-11-15 20:25:25,682 [DEBUG] [MainThread] [root/app_bar.py:137]: Bar primary-bar Created on Screen: \\.\DISPLAY1 [Bar Height: 0px, DPI Scale: 1.0]
+2026-11-15 20:25:25,683 [INFO] [MainThread] [root/bar_helper.py:587]: Re-registered AppBar for primary-bar_DISPLAY1_dc5f9e57 (space reservation + fullscreen)
+2026-11-15 20:30:45,894 [INFO] [MainThread] [root/bar_helper.py:578]: AppBarManager need to re-register 1 bar
+2026-11-15 20:30:45,896 [DEBUG] [MainThread] [root/app_bar.py:137]: Bar primary-bar Created on Screen: \\.\DISPLAY1 [Bar Height: 0px, DPI Scale: 1.0]
+2026-11-15 20:30:45,897 [INFO] [MainThread] [root/bar_helper.py:587]: Re-registered AppBar for primary-bar_DISPLAY1_dc5f9e57 (space reservation + fullscreen)
+2026-11-15 20:33:07,349 [INFO] [MainThread] [root/service.py:223]: Quick Launch rebuilding app list after install/uninstall detected
+2026-11-15 20:33:08,967 [DEBUG] [Dummy-6240] [root/icon_extractor.py:316]: URL icon resolve failed for C:\ProgramData\Microsoft\Windows\Start Menu\Programs\S.T.A.L.K.E.R. Anomaly [GOG.com]\Documents\Support.url: File contains no section headers.
+file: 'C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\S.T.A.L.K.E.R. Anomaly [GOG.com]\\Documents\\Support.url', line: 1
+'\ufeff[InternetShortcut]\n'
+2026-11-15 20:38:05,941 [DEBUG] [Thread-6359 (_run_after_command)] [root/manager.py:166]: Running command: powershell -NoProfile -WindowStyle Hidden -Command "Set-AllDesktopWallpapers '"D:/data/media/wallpaper\0479.jpg"'"
+2026-11-15 21:29:54,941 [INFO] [MainThread] [root/bar_helper.py:578]: AppBarManager need to re-register 1 bar
+2026-11-15 21:29:54,960 [DEBUG] [MainThread] [root/app_bar.py:137]: Bar primary-bar Created on Screen: \\.\DISPLAY1 [Bar Height: 0px, DPI Scale: 1.0]
+2026-11-15 21:29:54,962 [INFO] [MainThread] [root/bar_helper.py:587]: Re-registered AppBar for primary-bar_DISPLAY1_dc5f9e57 (space reservation + fullscreen)
+2026-11-15 21:30:21,884 [INFO] [MainThread] [root/bar_helper.py:578]: AppBarManager need to re-register 1 bar
+2026-11-15 21:30:21,893 [DEBUG] [MainThread] [root/app_bar.py:137]: Bar primary-bar Created on Screen: \\.\DISPLAY1 [Bar Height: 0px, DPI Scale: 1.0]
+2026-11-15 21:30:21,895 [INFO] [MainThread] [root/bar_helper.py:587]: Re-registered AppBar for primary-bar_DISPLAY1_dc5f9e57 (space reservation + fullscreen)
+2026-11-15 21:34:24,350 [INFO] [MainThread] [root/bar_helper.py:578]: AppBarManager need to re-register 1 bar
+2026-11-15 21:34:24,359 [DEBUG] [MainThread] [root/app_bar.py:137]: Bar primary-bar Created on Screen: \\.\DISPLAY1 [Bar Height: 0px, DPI Scale: 1.0]
+2026-11-15 21:34:24,361 [INFO] [MainThread] [root/bar_helper.py:587]: Re-registered AppBar for primary-bar_DISPLAY1_dc5f9e57 (space reservation + fullscreen)
+2026-11-15 21:39:26,872 [DEBUG] [Thread-7820 (_run_after_command)] [root/manager.py:166]: Running command: powershell -NoProfile -WindowStyle Hidden -Command "Set-AllDesktopWallpapers '"D:/data/media/wallpaper\pastel-city.png"'"
+2026-11-15 21:39:32,499 [DEBUG] [Thread-7825 (_run_after_command)] [root/manager.py:166]: Running command: powershell -NoProfile -WindowStyle Hidden -Command "Set-AllDesktopWallpapers '"D:/data/media/wallpaper\0356.jpg"'"
+2026-11-15 21:39:36,496 [DEBUG] [Thread-7830 (_run_after_command)] [root/manager.py:166]: Running command: powershell -NoProfile -WindowStyle Hidden -Command "Set-AllDesktopWallpapers '"D:/data/media/wallpaper\0618.jpg"'"
+2026-11-15 21:39:49,402 [DEBUG] [Thread-7839 (_run_after_command)] [root/manager.py:166]: Running command: powershell -NoProfile -WindowStyle Hidden -Command "Set-AllDesktopWallpapers '"D:/data/media/wallpaper\skeleton-and-bird.png"'"
+2026-11-15 21:39:53,196 [DEBUG] [Thread-7842 (_run_after_command)] [root/manager.py:166]: Running command: powershell -NoProfile -WindowStyle Hidden -Command "Set-AllDesktopWallpapers '"D:/data/media/wallpaper\windows-11-dark-mode-blue-stock.jpg"'"
+2026-11-15 21:40:01,402 [DEBUG] [Thread-7849 (_run_after_command)] [root/manager.py:166]: Running command: powershell -NoProfile -WindowStyle Hidden -Command "Set-AllDesktopWallpapers '"D:/data/media/wallpaper\0537.jpg"'"
+2026-11-15 21:40:10,149 [DEBUG] [Thread-7856 (_run_after_command)] [root/manager.py:166]: Running command: powershell -NoProfile -WindowStyle Hidden -Command "Set-AllDesktopWallpapers '"D:/data/media/wallpaper\0609.jpg"'"
+2026-11-15 21:42:11,539 [INFO] [MainThread] [root/service.py:223]: Quick Launch rebuilding app list after install/uninstall detected
+2026-11-15 21:42:14,629 [DEBUG] [Dummy-7911] [root/icon_extractor.py:316]: URL icon resolve failed for C:\ProgramData\Microsoft\Windows\Start Menu\Programs\S.T.A.L.K.E.R. Anomaly [GOG.com]\Documents\Support.url: File contains no section headers.
+file: 'C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\S.T.A.L.K.E.R. Anomaly [GOG.com]\\Documents\\Support.url', line: 1
+'\ufeff[InternetShortcut]\n'
+2026-11-15 21:42:18,275 [INFO] [MainThread] [root/service.py:223]: Quick Launch rebuilding app list after install/uninstall detected
+2026-11-15 21:42:19,781 [DEBUG] [Dummy-7917] [root/icon_extractor.py:316]: URL icon resolve failed for C:\ProgramData\Microsoft\Windows\Start Menu\Programs\S.T.A.L.K.E.R. Anomaly [GOG.com]\Documents\Support.url: File contains no section headers.
+file: 'C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\S.T.A.L.K.E.R. Anomaly [GOG.com]\\Documents\\Support.url', line: 1
+'\ufeff[InternetShortcut]\n'
+2026-11-15 21:42:37,683 [INFO] [MainThread] [root/service.py:223]: Quick Launch rebuilding app list after install/uninstall detected
+2026-11-15 21:42:39,023 [DEBUG] [Dummy-7929] [root/icon_extractor.py:316]: URL icon resolve failed for C:\ProgramData\Microsoft\Windows\Start Menu\Programs\S.T.A.L.K.E.R. Anomaly [GOG.com]\Documents\Support.url: File contains no section headers.
+file: 'C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\S.T.A.L.K.E.R. Anomaly [GOG.com]\\Documents\\Support.url', line: 1
+'\ufeff[InternetShortcut]\n'
+2026-11-15 22:01:59,712 [DEBUG] [Thread-8390 (_run_after_command)] [root/manager.py:166]: Running command: powershell -NoProfile -WindowStyle Hidden -Command "Set-AllDesktopWallpapers '"D:/data/media/wallpaper\women-sky.jpg"'"
+2026-11-15 22:02:06,178 [DEBUG] [Thread-8395 (_run_after_command)] [root/manager.py:166]: Running command: powershell -NoProfile -WindowStyle Hidden -Command "Set-AllDesktopWallpapers '"D:/data/media/wallpaper\wallhaven_8okqe2.jpg"'"
+2026-11-15 22:04:19,638 [DEBUG] [Thread-8450 (_run_after_command)] [root/manager.py:166]: Running command: powershell -NoProfile -WindowStyle Hidden -Command "Set-AllDesktopWallpapers '"D:/data/media/wallpaper\windows-11-purple-abstract-dark-background-dark-purple.png"'"
+2026-11-15 22:05:15,848 [DEBUG] [Thread-8475 (_run_after_command)] [root/manager.py:166]: Running command: powershell -NoProfile -WindowStyle Hidden -Command "Set-AllDesktopWallpapers '"D:/data/media/wallpaper\women-sky.jpg"'"
+2026-11-15 22:09:36,933 [DEBUG] [Thread-8582 (_run_after_command)] [root/manager.py:166]: Running command: powershell -NoProfile -WindowStyle Hidden -Command "Set-AllDesktopWallpapers '"D:/data/media/wallpaper\a_blue_mountains_with_a_blue_sky.jpg"'"
+2026-11-15 22:09:46,017 [DEBUG] [Thread-8587 (_run_after_command)] [root/manager.py:166]: Running command: powershell -NoProfile -WindowStyle Hidden -Command "Set-AllDesktopWallpapers '"D:/data/media/wallpaper\uniunimikan-sea-girl.jpg"'"
+2026-11-15 22:10:00,477 [DEBUG] [Thread-8596 (_run_after_command)] [root/manager.py:166]: Running command: powershell -NoProfile -WindowStyle Hidden -Command "Set-AllDesktopWallpapers '"D:/data/media/wallpaper\planets.jpg"'"
+2026-11-15 22:10:25,477 [DEBUG] [Thread-8609 (_run_after_command)] [root/manager.py:166]: Running command: powershell -NoProfile -WindowStyle Hidden -Command "Set-AllDesktopWallpapers '"D:/data/media/wallpaper\nord\a_cartoon_of_a_girl_holding_a_cat.jpg"'"
+Windows fatal exception: code 0x80010108
+
+Thread 0x00000958 [Thread-12] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 369 in wait
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\queue.py", line 199 in get
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 379 in dispatch_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 213 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00001bb4 [Thread-13] (most recent call first):
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\winapi.py", line 326 in read_directory_changes
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\winapi.py", line 380 in read_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\read_directory_changes.py", line 67 in _read_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\read_directory_changes.py", line 70 in queue_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 158 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x0000013c [WindowsNotificationEventListener] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\windows_events.py", line 778 in _poll
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\windows_events.py", line 446 in select
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\base_events.py", line 2019 in _run_once
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\base_events.py", line 678 in run_forever
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\base_events.py", line 707 in run_until_complete
+  File "D:\a\yasb\yasb\src\core\widgets\services\notifications\windows_notification.py", line 84 in run
+
+Thread 0x00001450 [KomorebiEventListener] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 373 in wait
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 670 in wait
+  File "D:\a\yasb\yasb\src\core\widgets\services\komorebi\event_listener.py", line 139 in _wait_until_komorebi_online
+  File "D:\a\yasb\yasb\src\core\widgets\services\komorebi\event_listener.py", line 69 in run
+
+Thread 0x00000be8 [HotkeyListener] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\hotkeys.py", line 252 in run
+
+Thread 0x00002a18 [BrightnessPolicy] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\brightness\service.py", line 315 in _policy_message_loop
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00002d2c [SystrayHook] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\systray\systray_hook.py", line 247 in run
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\systray.py", line 79 in run
+
+Thread 0x00000ddc [yasb-audio-visualizer] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\audio_visualizer\loopback.py", line 644 in _capture_loop
+  File "D:\a\yasb\yasb\src\core\widgets\services\audio_visualizer\loopback.py", line 573 in _capture_thread
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00002120 [QueryWorker] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\quick_launch\workers.py", line 61 in run
+
+Thread 0x00001f34 [_EventWorker] (most recent call first):
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 147 in _poll
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 72 in select
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 199 in run
+
+Thread 0x00002b1c [LogPipeServer] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\bindings\kernel32.py", line 291 in ConnectNamedPipe
+  File "D:\a\yasb\yasb\src\core\utils\cli_server.py", line 138 in _run_server
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00001c98 [CLIPipeServer] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\bindings\kernel32.py", line 291 in ConnectNamedPipe
+  File "D:\a\yasb\yasb\src\core\utils\cli_server.py", line 235 in _run_server
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00002e40 (most recent call first):
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\__init__.py", line 404 in run_forever
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\__init__.py", line 428 in run_until_complete
+  File "main.py", line 75 in main
+  File "main.py", line 178 in <module>
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\freeze_core\initscripts\console.py", line 43 in run
+  File "src/freeze_core/initscripts/__startup__.py", line 147 in run
+Windows fatal exception: code 0x80010108
+
+Thread 0x00000958 [Thread-12] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 369 in wait
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\queue.py", line 199 in get
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 379 in dispatch_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 213 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00001bb4 [Thread-13] (most recent call first):
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\winapi.py", line 326 in read_directory_changes
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\winapi.py", line 380 in read_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\read_directory_changes.py", line 67 in _read_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\read_directory_changes.py", line 70 in queue_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 158 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x0000013c [WindowsNotificationEventListener] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\windows_events.py", line 778 in _poll
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\windows_events.py", line 446 in select
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\base_events.py", line 2019 in _run_once
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\base_events.py", line 678 in run_forever
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\base_events.py", line 707 in run_until_complete
+  File "D:\a\yasb\yasb\src\core\widgets\services\notifications\windows_notification.py", line 84 in run
+
+Thread 0x00001450 [KomorebiEventListener] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 373 in wait
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 670 in wait
+  File "D:\a\yasb\yasb\src\core\widgets\services\komorebi\event_listener.py", line 139 in _wait_until_komorebi_online
+  File "D:\a\yasb\yasb\src\core\widgets\services\komorebi\event_listener.py", line 69 in run
+
+Thread 0x00000be8 [HotkeyListener] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\hotkeys.py", line 252 in run
+
+Thread 0x00002a18 [BrightnessPolicy] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\brightness\service.py", line 315 in _policy_message_loop
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00002d2c [SystrayHook] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\systray\systray_hook.py", line 247 in run
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\systray.py", line 79 in run
+
+Thread 0x00000ddc [yasb-audio-visualizer] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\audio_visualizer\spectrum.py", line ??? in _transform
+  <invalid frame>
+
+Thread 0x00002120 [QueryWorker] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\quick_launch\workers.py", line 61 in run
+
+Thread 0x00001f34 [_EventWorker] (most recent call first):
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 147 in _poll
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 72 in select
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 199 in run
+
+Thread 0x00002b1c [LogPipeServer] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\bindings\kernel32.py", line 291 in ConnectNamedPipe
+  File "D:\a\yasb\yasb\src\core\utils\cli_server.py", line 138 in _run_server
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00001c98 [CLIPipeServer] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\bindings\kernel32.py", line 291 in ConnectNamedPipe
+  File "D:\a\yasb\yasb\src\core\utils\cli_server.py", line 235 in _run_server
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00002e40 (most recent call first):
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\__init__.py", line 404 in run_forever
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\__init__.py", line 428 in run_until_complete
+  File "main.py", line 75 in main
+  File "main.py", line 178 in <module>
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\freeze_core\initscripts\console.py", line 43 in run
+  File "src/freeze_core/initscripts/__startup__.py", line 147 in run
+Windows fatal exception: code 0x80010108
+
+Thread 0x00000958 [Thread-12] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 369 in wait
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\queue.py", line 199 in get
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 379 in dispatch_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 213 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00001bb4 [Thread-13] (most recent call first):
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\winapi.py", line 326 in read_directory_changes
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\winapi.py", line 380 in read_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\read_directory_changes.py", line 67 in _read_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\read_directory_changes.py", line 70 in queue_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 158 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x0000013c [WindowsNotificationEventListener] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\windows_events.py", line 778 in _poll
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\windows_events.py", line 446 in select
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\base_events.py", line 2019 in _run_once
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\base_events.py", line 678 in run_forever
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\base_events.py", line 707 in run_until_complete
+  File "D:\a\yasb\yasb\src\core\widgets\services\notifications\windows_notification.py", line 84 in run
+
+Thread 0x00001450 [KomorebiEventListener] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 373 in wait
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 670 in wait
+  File "D:\a\yasb\yasb\src\core\widgets\services\komorebi\event_listener.py", line 139 in _wait_until_komorebi_online
+  File "D:\a\yasb\yasb\src\core\widgets\services\komorebi\event_listener.py", line 69 in run
+
+Thread 0x00000be8 [HotkeyListener] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\hotkeys.py", line 252 in run
+
+Thread 0x00002a18 [BrightnessPolicy] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\brightness\service.py", line 315 in _policy_message_loop
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00002d2c [SystrayHook] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\systray\systray_hook.py", line 247 in run
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\systray.py", line 79 in run
+
+Thread 0x00000ddc [yasb-audio-visualizer] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\audio_visualizer\loopback.py", line 644 in _capture_loop
+  File "D:\a\yasb\yasb\src\core\widgets\services\audio_visualizer\loopback.py", line 573 in _capture_thread
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00002120 [QueryWorker] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\quick_launch\workers.py", line 61 in run
+
+Thread 0x00001f34 [_EventWorker] (most recent call first):
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 147 in _poll
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 72 in select
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 199 in run
+
+Thread 0x00002b1c [LogPipeServer] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\bindings\kernel32.py", line 291 in ConnectNamedPipe
+  File "D:\a\yasb\yasb\src\core\utils\cli_server.py", line 138 in _run_server
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00001c98 [CLIPipeServer] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\bindings\kernel32.py", line 291 in ConnectNamedPipe
+  File "D:\a\yasb\yasb\src\core\utils\cli_server.py", line 235 in _run_server
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00002e40 (most recent call first):
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\__init__.py", line 404 in run_forever
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\__init__.py", line 428 in run_until_complete
+  File "main.py", line 75 in main
+  File "main.py", line 178 in <module>
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\freeze_core\initscripts\console.py", line 43 in run
+  File "src/freeze_core/initscripts/__startup__.py", line 147 in run
+Windows fatal exception: code 0x80010108
+
+Thread 0x00000958 [Thread-12] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 369 in wait
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\queue.py", line 199 in get
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 379 in dispatch_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 213 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00001bb4 [Thread-13] (most recent call first):
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\winapi.py", line 326 in read_directory_changes
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\winapi.py", line 380 in read_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\read_directory_changes.py", line 67 in _read_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\read_directory_changes.py", line 70 in queue_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 158 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x0000013c [WindowsNotificationEventListener] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\windows_events.py", line 778 in _poll
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\windows_events.py", line 446 in select
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\base_events.py", line 2019 in _run_once
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\base_events.py", line 678 in run_forever
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\base_events.py", line 707 in run_until_complete
+  File "D:\a\yasb\yasb\src\core\widgets\services\notifications\windows_notification.py", line 84 in run
+
+Thread 0x00001450 [KomorebiEventListener] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 373 in wait
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 670 in wait
+  File "D:\a\yasb\yasb\src\core\widgets\services\komorebi\event_listener.py", line 139 in _wait_until_komorebi_online
+  File "D:\a\yasb\yasb\src\core\widgets\services\komorebi\event_listener.py", line 69 in run
+
+Thread 0x00000be8 [HotkeyListener] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\hotkeys.py", line 252 in run
+
+Thread 0x00002a18 [BrightnessPolicy] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\brightness\service.py", line 315 in _policy_message_loop
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00002d2c [SystrayHook] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\systray\systray_hook.py", line 247 in run
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\systray.py", line 79 in run
+
+Thread 0x00000ddc [yasb-audio-visualizer] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\audio_visualizer\loopback.py", line 644 in _capture_loop
+  File "D:\a\yasb\yasb\src\core\widgets\services\audio_visualizer\loopback.py", line 573 in _capture_thread
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00002120 [QueryWorker] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\quick_launch\workers.py", line 61 in run
+
+Thread 0x00001f34 [_EventWorker] (most recent call first):
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 147 in _poll
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 72 in select
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 199 in run
+
+Thread 0x00002b1c [LogPipeServer] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\bindings\kernel32.py", line 291 in ConnectNamedPipe
+  File "D:\a\yasb\yasb\src\core\utils\cli_server.py", line 138 in _run_server
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00001c98 [CLIPipeServer] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\bindings\kernel32.py", line 291 in ConnectNamedPipe
+  File "D:\a\yasb\yasb\src\core\utils\cli_server.py", line 235 in _run_server
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00002e40 (most recent call first):
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\__init__.py", line 404 in run_forever
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\__init__.py", line 428 in run_until_complete
+  File "main.py", line 75 in main
+  File "main.py", line 178 in <module>
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\freeze_core\initscripts\console.py", line 43 in run
+  File "src/freeze_core/initscripts/__startup__.py", line 147 in run
+2026-11-15 22:17:02,377 [INFO] [MainThread] [root/service.py:223]: Quick Launch rebuilding app list after install/uninstall detected
+2026-11-15 22:17:04,450 [DEBUG] [Dummy-8776] [root/icon_extractor.py:316]: URL icon resolve failed for C:\ProgramData\Microsoft\Windows\Start Menu\Programs\S.T.A.L.K.E.R. Anomaly [GOG.com]\Documents\Support.url: File contains no section headers.
+file: 'C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\S.T.A.L.K.E.R. Anomaly [GOG.com]\\Documents\\Support.url', line: 1
+'\ufeff[InternetShortcut]\n'
+2026-11-15 22:18:36,159 [DEBUG] [Thread-8813 (_run_after_command)] [root/manager.py:166]: Running command: powershell -NoProfile -WindowStyle Hidden -Command "Set-AllDesktopWallpapers '"D:/data/media/wallpaper\nord\a_silhouette_of_a_person_standing_in_a_room_with_a_window.png"'"
+2026-11-15 22:18:50,618 [DEBUG] [Thread-8822 (_run_after_command)] [root/manager.py:166]: Running command: powershell -NoProfile -WindowStyle Hidden -Command "Set-AllDesktopWallpapers '"D:/data/media/wallpaper\orange-art.jpg"'"
+2026-11-15 22:19:00,977 [DEBUG] [Thread-8829 (_run_after_command)] [root/manager.py:166]: Running command: powershell -NoProfile -WindowStyle Hidden -Command "Set-AllDesktopWallpapers '"D:/data/media/wallpaper\nord\a_cartoon_of_a_woman_with_her_arms_out.png"'"
+2026-11-15 22:19:11,616 [DEBUG] [Thread-8836 (_run_after_command)] [root/manager.py:166]: Running command: powershell -NoProfile -WindowStyle Hidden -Command "Set-AllDesktopWallpapers '"D:/data/media/wallpaper\nord\a_cartoon_of_a_woman_on_a_balcony.png"'"
+Windows fatal exception: code 0x80010108
+
+Thread 0x00000958 [Thread-12] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 369 in wait
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\queue.py", line 199 in get
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 379 in dispatch_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 213 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00001bb4 [Thread-13] (most recent call first):
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\winapi.py", line 326 in read_directory_changes
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\winapi.py", line 380 in read_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\read_directory_changes.py", line 67 in _read_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\read_directory_changes.py", line 70 in queue_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 158 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x0000013c [WindowsNotificationEventListener] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\windows_events.py", line 778 in _poll
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\windows_events.py", line 446 in select
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\base_events.py", line 2019 in _run_once
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\base_events.py", line 678 in run_forever
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\base_events.py", line 707 in run_until_complete
+  File "D:\a\yasb\yasb\src\core\widgets\services\notifications\windows_notification.py", line 84 in run
+
+Thread 0x00001450 [KomorebiEventListener] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 373 in wait
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 670 in wait
+  File "D:\a\yasb\yasb\src\core\widgets\services\komorebi\event_listener.py", line 139 in _wait_until_komorebi_online
+  File "D:\a\yasb\yasb\src\core\widgets\services\komorebi\event_listener.py", line 69 in run
+
+Thread 0x00000be8 [HotkeyListener] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\hotkeys.py", line 252 in run
+
+Thread 0x00002a18 [BrightnessPolicy] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\brightness\service.py", line 315 in _policy_message_loop
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00002d2c [SystrayHook] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\systray\systray_hook.py", line 247 in run
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\systray.py", line 79 in run
+
+Thread 0x00000ddc [yasb-audio-visualizer] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\audio_visualizer\loopback.py", line 644 in _capture_loop
+  File "D:\a\yasb\yasb\src\core\widgets\services\audio_visualizer\loopback.py", line 573 in _capture_thread
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00002120 [QueryWorker] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\quick_launch\workers.py", line 61 in run
+
+Thread 0x00001f34 [_EventWorker] (most recent call first):
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 147 in _poll
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 72 in select
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 199 in run
+
+Thread 0x00002b1c [LogPipeServer] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\bindings\kernel32.py", line 291 in ConnectNamedPipe
+  File "D:\a\yasb\yasb\src\core\utils\cli_server.py", line 138 in _run_server
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00001c98 [CLIPipeServer] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\bindings\kernel32.py", line 291 in ConnectNamedPipe
+  File "D:\a\yasb\yasb\src\core\utils\cli_server.py", line 235 in _run_server
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00002e40 (most recent call first):
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\__init__.py", line 404 in run_forever
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\__init__.py", line 428 in run_until_complete
+  File "main.py", line 75 in main
+  File "main.py", line 178 in <module>
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\freeze_core\initscripts\console.py", line 43 in run
+  File "src/freeze_core/initscripts/__startup__.py", line 147 in run
+2026-11-15 22:46:43,813 [DEBUG] [Thread-9489 (_run_after_command)] [root/manager.py:166]: Running command: powershell -NoProfile -WindowStyle Hidden -Command "Set-AllDesktopWallpapers '"D:/data/media/wallpaper\0519.jpg"'"
+2026-11-15 22:46:55,855 [DEBUG] [Thread-9498 (_run_after_command)] [root/manager.py:166]: Running command: powershell -NoProfile -WindowStyle Hidden -Command "Set-AllDesktopWallpapers '"D:/data/media/wallpaper\a_black_sky_with_white_dots.jpg"'"
+2026-11-15 22:47:12,910 [DEBUG] [Thread-9507 (_run_after_command)] [root/manager.py:166]: Running command: powershell -NoProfile -WindowStyle Hidden -Command "Set-AllDesktopWallpapers '"D:/data/media/wallpaper\a_deck_of_a_ferry.jpg"'"
+2026-11-15 22:47:22,958 [DEBUG] [Thread-9514 (_run_after_command)] [root/manager.py:166]: Running command: powershell -NoProfile -WindowStyle Hidden -Command "Set-AllDesktopWallpapers '"D:/data/media/wallpaper\649533.png"'"
+2026-11-15 22:55:00,392 [INFO] [MainThread] [root/service.py:223]: Quick Launch rebuilding app list after install/uninstall detected
+2026-11-15 22:55:02,262 [DEBUG] [Dummy-9701] [root/icon_extractor.py:316]: URL icon resolve failed for C:\ProgramData\Microsoft\Windows\Start Menu\Programs\S.T.A.L.K.E.R. Anomaly [GOG.com]\Documents\Support.url: File contains no section headers.
+file: 'C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\S.T.A.L.K.E.R. Anomaly [GOG.com]\\Documents\\Support.url', line: 1
+'\ufeff[InternetShortcut]\n'
+Windows fatal exception: code 0x80010108
+
+Thread 0x00000958 [Thread-12] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 369 in wait
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\queue.py", line 199 in get
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 379 in dispatch_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 213 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00001bb4 [Thread-13] (most recent call first):
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\winapi.py", line 326 in read_directory_changes
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\winapi.py", line 380 in read_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\read_directory_changes.py", line 67 in _read_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\read_directory_changes.py", line 70 in queue_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 158 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x0000013c [WindowsNotificationEventListener] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\windows_events.py", line 778 in _poll
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\windows_events.py", line 446 in select
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\base_events.py", line 2019 in _run_once
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\base_events.py", line 678 in run_forever
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\base_events.py", line 707 in run_until_complete
+  File "D:\a\yasb\yasb\src\core\widgets\services\notifications\windows_notification.py", line 84 in run
+
+Thread 0x00001450 [KomorebiEventListener] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 373 in wait
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 670 in wait
+  File "D:\a\yasb\yasb\src\core\widgets\services\komorebi\event_listener.py", line 139 in _wait_until_komorebi_online
+  File "D:\a\yasb\yasb\src\core\widgets\services\komorebi\event_listener.py", line 69 in run
+
+Thread 0x00000be8 [HotkeyListener] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\hotkeys.py", line 252 in run
+
+Thread 0x00002a18 [BrightnessPolicy] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\brightness\service.py", line 315 in _policy_message_loop
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00002d2c [SystrayHook] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\systray\systray_hook.py", line 247 in run
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\systray.py", line 79 in run
+
+Thread 0x00000ddc [yasb-audio-visualizer] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\audio_visualizer\loopback.py", line 644 in _capture_loop
+  File "D:\a\yasb\yasb\src\core\widgets\services\audio_visualizer\loopback.py", line 573 in _capture_thread
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00002120 [QueryWorker] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\quick_launch\workers.py", line 61 in run
+
+Thread 0x00001f34 [_EventWorker] (most recent call first):
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 147 in _poll
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 72 in select
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 199 in run
+
+Thread 0x00002b1c [LogPipeServer] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\bindings\kernel32.py", line 291 in ConnectNamedPipe
+  File "D:\a\yasb\yasb\src\core\utils\cli_server.py", line 138 in _run_server
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00001c98 [CLIPipeServer] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\bindings\kernel32.py", line 291 in ConnectNamedPipe
+  File "D:\a\yasb\yasb\src\core\utils\cli_server.py", line 235 in _run_server
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00002e40 (most recent call first):
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\__init__.py", line 404 in run_forever
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\__init__.py", line 428 in run_until_complete
+  File "main.py", line 75 in main
+  File "main.py", line 178 in <module>
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\freeze_core\initscripts\console.py", line 43 in run
+  File "src/freeze_core/initscripts/__startup__.py", line 147 in run
+2026-11-15 23:21:07,593 [DEBUG] [Dummy-10323] [root/loopback.py:305]: Audio visualizer: device state changed device={0.0.1.00000000}.{fd808abd-7c5a-4204-b370-7d2abe6861c9} state=0x1
+2026-11-15 23:21:07,601 [DEBUG] [Dummy-10324] [root/loopback.py:290]: Audio visualizer: default device changed flow=1 role=0 device={0.0.1.00000000}.{fd808abd-7c5a-4204-b370-7d2abe6861c9}
+2026-11-15 23:21:07,602 [DEBUG] [Dummy-10325] [root/loopback.py:290]: Audio visualizer: default device changed flow=1 role=1 device={0.0.1.00000000}.{fd808abd-7c5a-4204-b370-7d2abe6861c9}
+2026-11-15 23:21:07,604 [DEBUG] [Dummy-10326] [root/loopback.py:290]: Audio visualizer: default device changed flow=1 role=2 device={0.0.1.00000000}.{fd808abd-7c5a-4204-b370-7d2abe6861c9}
+2026-11-15 23:21:07,648 [DEBUG] [Dummy-10328] [root/loopback.py:305]: Audio visualizer: device state changed device={0.0.0.00000000}.{1b66d4ca-6871-409a-a13f-9cdb9888cdcd} state=0x1
+2026-11-15 23:21:07,662 [DEBUG] [Dummy-10329] [root/loopback.py:290]: Audio visualizer: default device changed flow=0 role=2 device={0.0.0.00000000}.{1b66d4ca-6871-409a-a13f-9cdb9888cdcd}
+2026-11-15 23:21:07,724 [DEBUG] [Dummy-10330] [root/loopback.py:305]: Audio visualizer: device state changed device={0.0.0.00000000}.{c1d8ad1c-9beb-4ff0-8524-3a0c6793c6b9} state=0x8
+2026-11-15 23:21:07,744 [DEBUG] [Dummy-10331] [root/loopback.py:305]: Audio visualizer: device state changed device={0.0.0.00000000}.{c1d8ad1c-9beb-4ff0-8524-3a0c6793c6b9} state=0x4
+2026-11-15 23:21:07,789 [DEBUG] [yasb-audio-visualizer] [root/loopback.py:662]: Audio visualizer: loopback stream invalidated ((-2004287484, None, (None, None, None, 0, None))), reopening
+2026-11-15 23:21:07,795 [DEBUG] [Dummy-10332] [root/loopback.py:290]: Audio visualizer: default device changed flow=0 role=0 device={0.0.0.00000000}.{9096ff80-db7b-4b0a-ae18-f49b9f80f6d1}
+2026-11-15 23:21:07,798 [DEBUG] [Dummy-10333] [root/loopback.py:290]: Audio visualizer: default device changed flow=0 role=1 device={0.0.0.00000000}.{9096ff80-db7b-4b0a-ae18-f49b9f80f6d1}
+2026-11-15 23:21:07,844 [DEBUG] [Dummy-10334] [root/loopback.py:305]: Audio visualizer: device state changed device={0.0.0.00000000}.{c1d8ad1c-9beb-4ff0-8524-3a0c6793c6b9} state=0x8
+2026-11-15 23:21:07,864 [DEBUG] [Dummy-10336] [root/loopback.py:305]: Audio visualizer: device state changed device={0.0.0.00000000}.{c1d8ad1c-9beb-4ff0-8524-3a0c6793c6b9} state=0x4
+2026-11-15 23:21:07,976 [DEBUG] [Dummy-10337] [root/loopback.py:290]: Audio visualizer: default device changed flow=0 role=0 device={0.0.0.00000000}.{9096ff80-db7b-4b0a-ae18-f49b9f80f6d1}
+2026-11-15 23:21:07,977 [DEBUG] [Dummy-10338] [root/loopback.py:290]: Audio visualizer: default device changed flow=0 role=1 device={0.0.0.00000000}.{9096ff80-db7b-4b0a-ae18-f49b9f80f6d1}
+2026-11-15 23:21:08,304 [INFO] [yasb-audio-visualizer] [root/loopback.py:728]: Audio visualizer: loopback capture open (48000 Hz, 2 ch, 32-bit float)
+2026-11-15 23:21:08,490 [DEBUG] [Dummy-10339] [root/loopback.py:305]: Audio visualizer: device state changed device={0.0.1.00000000}.{fd808abd-7c5a-4204-b370-7d2abe6861c9} state=0x8
+2026-11-15 23:21:08,496 [DEBUG] [Dummy-10340] [root/loopback.py:290]: Audio visualizer: default device changed flow=1 role=0 device={0.0.1.00000000}.{037b4510-1a9e-4677-95cd-0f93fc7c6ab8}
+2026-11-15 23:21:08,502 [DEBUG] [Dummy-10341] [root/loopback.py:290]: Audio visualizer: default device changed flow=1 role=1 device={0.0.1.00000000}.{037b4510-1a9e-4677-95cd-0f93fc7c6ab8}
+2026-11-15 23:21:08,508 [DEBUG] [Dummy-10342] [root/loopback.py:290]: Audio visualizer: default device changed flow=1 role=2 device={0.0.1.00000000}.{037b4510-1a9e-4677-95cd-0f93fc7c6ab8}
+2026-11-15 23:21:08,525 [DEBUG] [Dummy-10343] [root/loopback.py:305]: Audio visualizer: device state changed device={0.0.0.00000000}.{1b66d4ca-6871-409a-a13f-9cdb9888cdcd} state=0x8
+2026-11-15 23:21:08,536 [DEBUG] [Dummy-10345] [root/loopback.py:290]: Audio visualizer: default device changed flow=0 role=2 device={0.0.0.00000000}.{18d9ed62-0360-4961-bc6c-17bcc88432e4}
+2026-11-15 23:21:08,559 [DEBUG] [Dummy-10346] [root/loopback.py:305]: Audio visualizer: device state changed device={0.0.0.00000000}.{c1d8ad1c-9beb-4ff0-8524-3a0c6793c6b9} state=0x8
+2026-11-15 23:21:08,570 [DEBUG] [Dummy-10347] [root/loopback.py:305]: Audio visualizer: device state changed device={0.0.0.00000000}.{c1d8ad1c-9beb-4ff0-8524-3a0c6793c6b9} state=0x4
+2026-11-15 23:21:08,602 [DEBUG] [yasb-audio-visualizer] [root/loopback.py:662]: Audio visualizer: loopback stream invalidated ((-2004287484, None, (None, None, None, 0, None))), reopening
+2026-11-15 23:21:08,613 [DEBUG] [Dummy-10348] [root/loopback.py:290]: Audio visualizer: default device changed flow=0 role=0 device={0.0.0.00000000}.{9096ff80-db7b-4b0a-ae18-f49b9f80f6d1}
+2026-11-15 23:21:08,614 [DEBUG] [Dummy-10349] [root/loopback.py:290]: Audio visualizer: default device changed flow=0 role=1 device={0.0.0.00000000}.{9096ff80-db7b-4b0a-ae18-f49b9f80f6d1}
+2026-11-15 23:21:08,660 [DEBUG] [Dummy-10351] [root/loopback.py:305]: Audio visualizer: device state changed device={0.0.0.00000000}.{c1d8ad1c-9beb-4ff0-8524-3a0c6793c6b9} state=0x8
+2026-11-15 23:21:08,673 [DEBUG] [Dummy-10352] [root/loopback.py:305]: Audio visualizer: device state changed device={0.0.0.00000000}.{c1d8ad1c-9beb-4ff0-8524-3a0c6793c6b9} state=0x4
+2026-11-15 23:21:08,737 [DEBUG] [Dummy-10353] [root/loopback.py:305]: Audio visualizer: device state changed device={0.0.0.00000000}.{c1d8ad1c-9beb-4ff0-8524-3a0c6793c6b9} state=0x8
+2026-11-15 23:21:08,749 [DEBUG] [Dummy-10354] [root/loopback.py:305]: Audio visualizer: device state changed device={0.0.0.00000000}.{c1d8ad1c-9beb-4ff0-8524-3a0c6793c6b9} state=0x4
+2026-11-15 23:21:08,859 [DEBUG] [Dummy-10355] [root/loopback.py:290]: Audio visualizer: default device changed flow=0 role=0 device={0.0.0.00000000}.{9096ff80-db7b-4b0a-ae18-f49b9f80f6d1}
+2026-11-15 23:21:08,861 [DEBUG] [Dummy-10356] [root/loopback.py:290]: Audio visualizer: default device changed flow=0 role=1 device={0.0.0.00000000}.{9096ff80-db7b-4b0a-ae18-f49b9f80f6d1}
+2026-11-15 23:21:09,114 [INFO] [yasb-audio-visualizer] [root/loopback.py:728]: Audio visualizer: loopback capture open (48000 Hz, 2 ch, 32-bit float)
+2026-11-15 23:21:11,072 [DEBUG] [Dummy-10357] [root/loopback.py:305]: Audio visualizer: device state changed device={0.0.1.00000000}.{fd808abd-7c5a-4204-b370-7d2abe6861c9} state=0x1
+2026-11-15 23:21:11,079 [DEBUG] [Dummy-10358] [root/loopback.py:290]: Audio visualizer: default device changed flow=1 role=0 device={0.0.1.00000000}.{fd808abd-7c5a-4204-b370-7d2abe6861c9}
+2026-11-15 23:21:11,082 [DEBUG] [Dummy-10359] [root/loopback.py:290]: Audio visualizer: default device changed flow=1 role=1 device={0.0.1.00000000}.{fd808abd-7c5a-4204-b370-7d2abe6861c9}
+2026-11-15 23:21:11,085 [DEBUG] [Dummy-10360] [root/loopback.py:290]: Audio visualizer: default device changed flow=1 role=2 device={0.0.1.00000000}.{fd808abd-7c5a-4204-b370-7d2abe6861c9}
+2026-11-15 23:21:11,112 [DEBUG] [Dummy-10361] [root/loopback.py:305]: Audio visualizer: device state changed device={0.0.0.00000000}.{1b66d4ca-6871-409a-a13f-9cdb9888cdcd} state=0x1
+2026-11-15 23:21:11,120 [DEBUG] [Dummy-10363] [root/loopback.py:290]: Audio visualizer: default device changed flow=0 role=2 device={0.0.0.00000000}.{1b66d4ca-6871-409a-a13f-9cdb9888cdcd}
+2026-11-15 23:21:11,142 [DEBUG] [Dummy-10364] [root/loopback.py:305]: Audio visualizer: device state changed device={0.0.0.00000000}.{c1d8ad1c-9beb-4ff0-8524-3a0c6793c6b9} state=0x8
+2026-11-15 23:21:11,157 [DEBUG] [Dummy-10365] [root/loopback.py:305]: Audio visualizer: device state changed device={0.0.0.00000000}.{c1d8ad1c-9beb-4ff0-8524-3a0c6793c6b9} state=0x4
+2026-11-15 23:21:11,215 [DEBUG] [yasb-audio-visualizer] [root/loopback.py:662]: Audio visualizer: loopback stream invalidated ((-2004287484, None, (None, None, None, 0, None))), reopening
+2026-11-15 23:21:11,221 [DEBUG] [Dummy-10366] [root/loopback.py:290]: Audio visualizer: default device changed flow=0 role=0 device={0.0.0.00000000}.{9096ff80-db7b-4b0a-ae18-f49b9f80f6d1}
+2026-11-15 23:21:11,222 [DEBUG] [Dummy-10367] [root/loopback.py:290]: Audio visualizer: default device changed flow=0 role=1 device={0.0.0.00000000}.{9096ff80-db7b-4b0a-ae18-f49b9f80f6d1}
+2026-11-15 23:21:11,309 [DEBUG] [Dummy-10369] [root/loopback.py:305]: Audio visualizer: device state changed device={0.0.0.00000000}.{c1d8ad1c-9beb-4ff0-8524-3a0c6793c6b9} state=0x8
+2026-11-15 23:21:11,322 [DEBUG] [Dummy-10370] [root/loopback.py:305]: Audio visualizer: device state changed device={0.0.0.00000000}.{c1d8ad1c-9beb-4ff0-8524-3a0c6793c6b9} state=0x4
+2026-11-15 23:21:11,478 [DEBUG] [Dummy-10371] [root/loopback.py:290]: Audio visualizer: default device changed flow=0 role=0 device={0.0.0.00000000}.{9096ff80-db7b-4b0a-ae18-f49b9f80f6d1}
+2026-11-15 23:21:11,479 [DEBUG] [Dummy-10372] [root/loopback.py:290]: Audio visualizer: default device changed flow=0 role=1 device={0.0.0.00000000}.{9096ff80-db7b-4b0a-ae18-f49b9f80f6d1}
+2026-11-15 23:21:11,740 [INFO] [yasb-audio-visualizer] [root/loopback.py:728]: Audio visualizer: loopback capture open (48000 Hz, 2 ch, 32-bit float)
+2026-11-16 00:10:34,180 [DEBUG] [Dummy-11536] [root/loopback.py:305]: Audio visualizer: device state changed device={0.0.0.00000000}.{1b66d4ca-6871-409a-a13f-9cdb9888cdcd} state=0x8
+2026-11-16 00:10:34,256 [DEBUG] [Dummy-11537] [root/loopback.py:290]: Audio visualizer: default device changed flow=0 role=2 device={0.0.0.00000000}.{18d9ed62-0360-4961-bc6c-17bcc88432e4}
+2026-11-16 00:10:34,283 [DEBUG] [Dummy-11538] [root/loopback.py:305]: Audio visualizer: device state changed device={0.0.1.00000000}.{fd808abd-7c5a-4204-b370-7d2abe6861c9} state=0x8
+2026-11-16 00:10:34,292 [DEBUG] [Dummy-11539] [root/loopback.py:290]: Audio visualizer: default device changed flow=1 role=0 device={0.0.1.00000000}.{037b4510-1a9e-4677-95cd-0f93fc7c6ab8}
+2026-11-16 00:10:34,298 [DEBUG] [Dummy-11540] [root/loopback.py:290]: Audio visualizer: default device changed flow=1 role=1 device={0.0.1.00000000}.{037b4510-1a9e-4677-95cd-0f93fc7c6ab8}
+2026-11-16 00:10:34,309 [DEBUG] [Dummy-11541] [root/loopback.py:290]: Audio visualizer: default device changed flow=1 role=2 device={0.0.1.00000000}.{037b4510-1a9e-4677-95cd-0f93fc7c6ab8}
+2026-11-16 00:10:34,427 [DEBUG] [Dummy-11545] [root/loopback.py:305]: Audio visualizer: device state changed device={0.0.0.00000000}.{c1d8ad1c-9beb-4ff0-8524-3a0c6793c6b9} state=0x8
+2026-11-16 00:10:34,438 [DEBUG] [yasb-audio-visualizer] [root/loopback.py:662]: Audio visualizer: loopback stream invalidated ((-2004287484, None, (None, None, None, 0, None))), reopening
+2026-11-16 00:10:34,454 [DEBUG] [Dummy-11546] [root/loopback.py:305]: Audio visualizer: device state changed device={0.0.0.00000000}.{c1d8ad1c-9beb-4ff0-8524-3a0c6793c6b9} state=0x4
+2026-11-16 00:10:34,459 [DEBUG] [Dummy-11547] [root/loopback.py:290]: Audio visualizer: default device changed flow=0 role=0 device={0.0.0.00000000}.{9096ff80-db7b-4b0a-ae18-f49b9f80f6d1}
+2026-11-16 00:10:34,468 [DEBUG] [Dummy-11548] [root/loopback.py:290]: Audio visualizer: default device changed flow=0 role=1 device={0.0.0.00000000}.{9096ff80-db7b-4b0a-ae18-f49b9f80f6d1}
+2026-11-16 00:10:34,535 [DEBUG] [Dummy-11549] [root/loopback.py:305]: Audio visualizer: device state changed device={0.0.1.00000000}.{fd808abd-7c5a-4204-b370-7d2abe6861c9} state=0x1
+2026-11-16 00:10:34,551 [DEBUG] [Dummy-11550] [root/loopback.py:290]: Audio visualizer: default device changed flow=1 role=0 device={0.0.1.00000000}.{fd808abd-7c5a-4204-b370-7d2abe6861c9}
+2026-11-16 00:10:34,553 [DEBUG] [Dummy-11551] [root/loopback.py:290]: Audio visualizer: default device changed flow=1 role=1 device={0.0.1.00000000}.{fd808abd-7c5a-4204-b370-7d2abe6861c9}
+2026-11-16 00:10:34,562 [DEBUG] [Dummy-11552] [root/loopback.py:290]: Audio visualizer: default device changed flow=1 role=2 device={0.0.1.00000000}.{fd808abd-7c5a-4204-b370-7d2abe6861c9}
+2026-11-16 00:10:34,824 [DEBUG] [Dummy-11554] [root/loopback.py:305]: Audio visualizer: device state changed device={0.0.0.00000000}.{1b66d4ca-6871-409a-a13f-9cdb9888cdcd} state=0x1
+2026-11-16 00:10:34,844 [DEBUG] [Dummy-11555] [root/loopback.py:290]: Audio visualizer: default device changed flow=0 role=2 device={0.0.0.00000000}.{1b66d4ca-6871-409a-a13f-9cdb9888cdcd}
+2026-11-16 00:10:34,865 [DEBUG] [Dummy-11556] [root/loopback.py:305]: Audio visualizer: device state changed device={0.0.0.00000000}.{c1d8ad1c-9beb-4ff0-8524-3a0c6793c6b9} state=0x8
+2026-11-16 00:10:34,898 [DEBUG] [Dummy-11557] [root/loopback.py:305]: Audio visualizer: device state changed device={0.0.0.00000000}.{c1d8ad1c-9beb-4ff0-8524-3a0c6793c6b9} state=0x4
+2026-11-16 00:10:35,034 [DEBUG] [Dummy-11559] [root/loopback.py:290]: Audio visualizer: default device changed flow=0 role=0 device={0.0.0.00000000}.{9096ff80-db7b-4b0a-ae18-f49b9f80f6d1}
+2026-11-16 00:10:35,035 [DEBUG] [Dummy-11560] [root/loopback.py:290]: Audio visualizer: default device changed flow=0 role=1 device={0.0.0.00000000}.{9096ff80-db7b-4b0a-ae18-f49b9f80f6d1}
+2026-11-16 00:10:35,107 [INFO] [yasb-audio-visualizer] [root/loopback.py:728]: Audio visualizer: loopback capture open (48000 Hz, 2 ch, 32-bit float)
+2026-11-16 04:21:50,501 [ERROR] [Thread-17493 (_fetch)] [root/api.py:281]: GitHubDataManager an unexpected error occurred: The read operation timed out
+2026-11-16 06:06:28,516 [DEBUG] [Dummy-19984] [root/loopback.py:305]: Audio visualizer: device state changed device={0.0.1.00000000}.{fd808abd-7c5a-4204-b370-7d2abe6861c9} state=0x8
+2026-11-16 06:06:28,524 [DEBUG] [Dummy-19985] [root/loopback.py:290]: Audio visualizer: default device changed flow=1 role=0 device={0.0.1.00000000}.{037b4510-1a9e-4677-95cd-0f93fc7c6ab8}
+2026-11-16 06:06:28,527 [DEBUG] [Dummy-19986] [root/loopback.py:290]: Audio visualizer: default device changed flow=1 role=1 device={0.0.1.00000000}.{037b4510-1a9e-4677-95cd-0f93fc7c6ab8}
+2026-11-16 06:06:28,529 [DEBUG] [Dummy-19987] [root/loopback.py:290]: Audio visualizer: default device changed flow=1 role=2 device={0.0.1.00000000}.{037b4510-1a9e-4677-95cd-0f93fc7c6ab8}
+2026-11-16 06:06:28,566 [DEBUG] [Dummy-19988] [root/loopback.py:305]: Audio visualizer: device state changed device={0.0.0.00000000}.{1b66d4ca-6871-409a-a13f-9cdb9888cdcd} state=0x8
+2026-11-16 06:06:28,580 [DEBUG] [Dummy-19990] [root/loopback.py:290]: Audio visualizer: default device changed flow=0 role=2 device={0.0.0.00000000}.{18d9ed62-0360-4961-bc6c-17bcc88432e4}
+2026-11-16 06:06:28,643 [DEBUG] [Dummy-19991] [root/loopback.py:305]: Audio visualizer: device state changed device={0.0.0.00000000}.{c1d8ad1c-9beb-4ff0-8524-3a0c6793c6b9} state=0x8
+2026-11-16 06:06:28,657 [DEBUG] [Dummy-19992] [root/loopback.py:305]: Audio visualizer: device state changed device={0.0.0.00000000}.{c1d8ad1c-9beb-4ff0-8524-3a0c6793c6b9} state=0x4
+2026-11-16 06:06:28,715 [DEBUG] [yasb-audio-visualizer] [root/loopback.py:662]: Audio visualizer: loopback stream invalidated ((-2004287484, None, (None, None, None, 0, None))), reopening
+2026-11-16 06:06:28,729 [DEBUG] [Dummy-19993] [root/loopback.py:290]: Audio visualizer: default device changed flow=0 role=0 device={0.0.0.00000000}.{9096ff80-db7b-4b0a-ae18-f49b9f80f6d1}
+2026-11-16 06:06:28,732 [DEBUG] [Dummy-19994] [root/loopback.py:290]: Audio visualizer: default device changed flow=0 role=1 device={0.0.0.00000000}.{9096ff80-db7b-4b0a-ae18-f49b9f80f6d1}
+2026-11-16 06:06:28,793 [DEBUG] [Dummy-19995] [root/loopback.py:305]: Audio visualizer: device state changed device={0.0.0.00000000}.{c1d8ad1c-9beb-4ff0-8524-3a0c6793c6b9} state=0x8
+2026-11-16 06:06:28,809 [DEBUG] [Dummy-19996] [root/loopback.py:305]: Audio visualizer: device state changed device={0.0.0.00000000}.{c1d8ad1c-9beb-4ff0-8524-3a0c6793c6b9} state=0x4
+2026-11-16 06:06:28,895 [DEBUG] [Dummy-19997] [root/loopback.py:305]: Audio visualizer: device state changed device={0.0.0.00000000}.{c1d8ad1c-9beb-4ff0-8524-3a0c6793c6b9} state=0x8
+2026-11-16 06:06:28,906 [DEBUG] [Dummy-19998] [root/loopback.py:290]: Audio visualizer: default device changed flow=0 role=0 device={0.0.0.00000000}.{9096ff80-db7b-4b0a-ae18-f49b9f80f6d1}
+2026-11-16 06:06:28,909 [DEBUG] [Dummy-19999] [root/loopback.py:290]: Audio visualizer: default device changed flow=0 role=1 device={0.0.0.00000000}.{9096ff80-db7b-4b0a-ae18-f49b9f80f6d1}
+2026-11-16 06:06:28,925 [DEBUG] [Dummy-20000] [root/loopback.py:305]: Audio visualizer: device state changed device={0.0.0.00000000}.{c1d8ad1c-9beb-4ff0-8524-3a0c6793c6b9} state=0x4
+2026-11-16 06:06:29,233 [INFO] [yasb-audio-visualizer] [root/loopback.py:728]: Audio visualizer: loopback capture open (48000 Hz, 2 ch, 32-bit float)
+2026-11-16 07:01:32,239 [ERROR] [Thread-21298 (_fetch)] [root/api.py:538]: GitHubDataManager no internet connection. Unable to enrich notifications via GraphQL.
+Windows fatal exception: code 0x80010108
+
+Thread 0x00000958 [Thread-12] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 369 in wait
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\queue.py", line 199 in get
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 379 in dispatch_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 213 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00001bb4 [Thread-13] (most recent call first):
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\winapi.py", line 326 in read_directory_changes
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\winapi.py", line 380 in read_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\read_directory_changes.py", line 67 in _read_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\read_directory_changes.py", line 70 in queue_events
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\watchdog\observers\api.py", line 158 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x0000013c [WindowsNotificationEventListener] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\windows_events.py", line 778 in _poll
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\windows_events.py", line 446 in select
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\base_events.py", line 2019 in _run_once
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\base_events.py", line 678 in run_forever
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\asyncio\base_events.py", line 707 in run_until_complete
+  File "D:\a\yasb\yasb\src\core\widgets\services\notifications\windows_notification.py", line 84 in run
+
+Thread 0x00001450 [KomorebiEventListener] (most recent call first):
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 373 in wait
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 670 in wait
+  File "D:\a\yasb\yasb\src\core\widgets\services\komorebi\event_listener.py", line 139 in _wait_until_komorebi_online
+  File "D:\a\yasb\yasb\src\core\widgets\services\komorebi\event_listener.py", line 69 in run
+
+Thread 0x00000be8 [HotkeyListener] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\hotkeys.py", line 252 in run
+
+Thread 0x00002a18 [BrightnessPolicy] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\brightness\service.py", line 315 in _policy_message_loop
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00002d2c [SystrayHook] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\systray\systray_hook.py", line 247 in run
+  File "D:\a\yasb\yasb\src\core\widgets\yasb\systray.py", line 79 in run
+
+Thread 0x00000ddc [yasb-audio-visualizer] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\audio_visualizer\loopback.py", line 644 in _capture_loop
+  File "D:\a\yasb\yasb\src\core\widgets\services\audio_visualizer\loopback.py", line 573 in _capture_thread
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00002120 [QueryWorker] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\widgets\services\quick_launch\workers.py", line 61 in run
+
+Thread 0x00001f34 [_EventWorker] (most recent call first):
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 147 in _poll
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 72 in select
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\_windows.py", line 199 in run
+
+Thread 0x00002b1c [LogPipeServer] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\bindings\kernel32.py", line 291 in ConnectNamedPipe
+  File "D:\a\yasb\yasb\src\core\utils\cli_server.py", line 138 in _run_server
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00001c98 [CLIPipeServer] (most recent call first):
+  File "D:\a\yasb\yasb\src\core\utils\win32\bindings\kernel32.py", line 291 in ConnectNamedPipe
+  File "D:\a\yasb\yasb\src\core\utils\cli_server.py", line 235 in _run_server
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1024 in run
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1082 in _bootstrap_inner
+  File "C:\hostedtoolcache\windows\Python\3.14.7\x64\Lib\threading.py", line 1044 in _bootstrap
+
+Thread 0x00002e40 (most recent call first):
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\__init__.py", line 404 in run_forever
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\qasync\__init__.py", line 428 in run_until_complete
+  File "main.py", line 75 in main
+  File "main.py", line 178 in <module>
+  File "D:\a\yasb\yasb\venv\Lib\site-packages\freeze_core\initscripts\console.py", line 43 in run
+  File "src/freeze_core/initscripts/__startup__.py", line 147 in run
+2026-11-16 11:25:04,924 [INFO] [MainThread] [root/service.py:223]: Quick Launch rebuilding app list after install/uninstall detected
+2026-11-16 11:25:07,798 [DEBUG] [Dummy-27521] [root/icon_extractor.py:316]: URL icon resolve failed for C:\ProgramData\Microsoft\Windows\Start Menu\Programs\S.T.A.L.K.E.R. Anomaly [GOG.com]\Documents\Support.url: File contains no section headers.
+file: 'C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\S.T.A.L.K.E.R. Anomaly [GOG.com]\\Documents\\Support.url', line: 1
+'\ufeff[InternetShortcut]\n'

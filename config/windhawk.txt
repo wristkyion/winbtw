@@ -1,0 +1,132 @@
+Windhawk config
+
+First setup:
+This mod needs to hook into dwm.exe to work. Please navigate to Windhawk's Settings > Advanced settings > More advanced settings > Process inclusion list, and make sure that dwm.exe is in the list.
+
+Second setup:
+Download **Custom Window Corner Radius, macOS magnifying cursor, Dynamic Island for Windows**
+And turn it on
+
+Third setup
+put all the config, turn the textual mode and copy & paste all code on below
+
+- Custom Window Corner Radius
+radius: 15
+smallRadius: 6
+tooltipRadius: -1
+roundMaximizedAndSnapped: none
+
+- macOS magnifying cursor
+maxScalePercent: 400
+shakeThreshold: 2500
+lerpSpeedUpPercent: 40
+lerpSpeedDownPercent: 15
+
+- Dynamic Island for Windows
+Appearance:
+  Position: top-center
+  TargetMonitor: primary
+  OffsetX: 0
+  OffsetY: -20
+  SeparateExpandedOffsetY: 0
+  OffsetYExpanded: 20
+  BorderMergedMode: 1
+  ShapeStyle: default
+  ProgressStyle: slim
+  SpectrumStyle: bars
+  SizeScale: '0.9'
+  AutoDpiScale: 0
+Behavior:
+  AlwaysOnTop: 1
+  ExpandOnHover: 1
+  AutoHideIdleSeconds: '0'
+  AutoHideFullscreen: 1
+  UnhideOnHover: 1
+Animations:
+  TargetFPS: auto
+  AnimationStyle: snappy
+  AnimationSpeed: slow
+  ExpandedMediaTransitions: 1
+  PillCoverSpin: 1
+Themes:
+  ThemePreset: custom
+  PillOpacity: 100
+  TintIntensity: 100
+  BackdropMaterial: none
+  BackdropFillOpacity: 0
+  BackdropTint: 0
+  MaterialDepth: 1
+  DropShadow: 1
+  AccentBloom: 0
+  TextScale: 100
+  AccentColorMode: auto
+  CustomAccentHex: '#4cc9f0'
+  CalendarAccent: red
+  ClockAccentGlow: 1
+  FontFamily: SF Pro Display
+  ContourBorderMode: borderless
+  ContourBorderHex: '#1E1E22'
+  PillBgColor: '#000000'
+  TextPrimaryColor: '#FFFFFF'
+  TextSecondaryColor: '#9B9BA5'
+Indicators:
+  PrivacyDots: 1
+  PrivacyDotsMic: 1
+  PrivacyDotsMicHex: '#FF9500'
+  PrivacyDotsCam: 1
+  PrivacyDotsCamHex: '#34C759'
+Modules:
+  Media: 1
+  MediaAutoExpand: 1
+  MediaPillClock: 1
+  Volume: 1
+  Brightness: 1
+  CapsLock: 1
+  Battery: 1
+  BluetoothIndicator: 1
+  BluetoothShowBattery: 1
+  Progress: 1
+  TimerModule: 1
+  Clipboard: 1
+  StatusCountdownProgress: 1
+  DoNotDisturbIndicator: 1
+  NotificationRespectDnD: 1
+  HardwareMonitorModule: 1
+  GameOverlay: 0
+  ShowMetricText: 1
+  Weather: 1
+  WeatherCity: ''
+  WeatherFahrenheit: 0
+  MediaTabLyrics: 1
+  Lyrics: 1
+  LyricsVisualizer: 1
+  KaraokeLyrics: 1
+  KaraokeLetterGlow: 1
+  LyricsOffsetMs: 0
+  LyricsOffsetBluetoothMs: 0
+  LyricsNeighborLinesVisible: 1
+  LyricsCache: 1
+  LyricsCacheMaxMB: '25'
+  Language: auto
+  ClockFormat: 12h
+  ShowSeconds: 1
+  DateFormat: ''
+  DateFirst: 1
+  FirstDayOfWeek: sunday
+  QuickLookup: 1
+  FileTrayModule: 1
+  FileTrayMaxItems: 10
+  FileTrayPersist: 1
+  MediaExpandBlocklist: ''
+  GameOverlayShowFps: 1
+  GameOverlayShowCpu: 1
+  GameOverlayShowGpu: 1
+  GameOverlayShowRam: 1
+  GameOverlayShowDisk: 1
+  GameOverlayCompact: 1
+Shortcuts:
+  HideShowHotkeyEnabled: 1
+  HideShowModifiers: ctrl_alt
+  HideShowKey: D
+  LookupModifiers: ctrl_alt
+  LookupKey: Space
