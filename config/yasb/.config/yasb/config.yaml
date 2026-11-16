@@ -70,7 +70,7 @@ widgets:
     type: "yasb.wallpapers.WallpapersWidget"
     options:
       label: "<span>\ue7aa</span>"
-      image_path: "D:/data/media/wallpaper"
+      image_path: "C:/Users/<YOUR_USERNAME>/walls"
       run_after:
             - 'powershell -NoProfile -WindowStyle Hidden -Command "Set-AllDesktopWallpapers ''{image}''"'
       engine:

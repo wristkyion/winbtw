@@ -1,6 +1,10 @@
-# Introduction to the dotfiles/config
+# winbtw
 
-**winbtw** is a collection of dotfiles and configuration files that turns a Windows 11 desktop into a more polished, macOS-inspired setup. It includes a status bar, a terminal, a system info display, a dock, window styling, and a Dynamic Island-style overlay.
+> **Language:** English · [Bahasa Indonesia](README_ID.md)
+
+### Introduction to the dotfiles/config
+
+**winbtw** is a collection of dotfiles and configuration files that turns a Windows 11 desktop into a more polished, macOS-inspired setup. It includes a status bar, a terminal, a system info display, a dock, window styling, a wallpaper switcher, and a Dynamic Island-style overlay.
 
 Windows can make a better themed desktop too, not only Linux.
 
@@ -9,8 +13,10 @@ The repository contains:
 - `config/fastfetch/`: Fastfetch layout, logo image, and ASCII text ("kiyo").
 - `config/mydockfinder/`: MyDockFinder dock settings (`config.ini`).
 - `config/wezterm/`: WezTerm configuration (`.wezterm.lua`). Optional.
-- `config/yasb/.config/yasb/`: YASB status bar configuration and styles (`config.yaml`, `styles.css`, `yasb_colors.css`).
+- `config/yasb/.config/yasb/`: YASB status bar configuration, styles, and wallpaper widget (`config.yaml`, `styles.css`, `yasb_colors.css`).
 - `resource/`: Component icons and cursors used by the configs.
+- `resource/walls/`: Wallpaper images for the wallpaper switcher.
+- `resource/fonts/`: Font files used by the configs.
 - `windhawk.txt`: Windhawk mod settings to copy in manually.
 - `LICENSE`: MIT License.
 
@@ -29,6 +35,7 @@ The repository contains:
 | YASB | [yasb.dev](https://yasb.dev/) | Yes |
 | Windhawk | [windhawk.net](https://windhawk.net/) | Yes |
 | Fastfetch | [GitHub](https://github.com/fastfetch-cli/fastfetch) | Yes |
+| VirtualDesktop (PowerShell module) | [PowerShell Gallery](https://www.powershellgallery.com/packages/VirtualDesktop/) | Yes (for the wallpaper switcher, Windows 11 only) |
 | WezTerm | [wezterm.org](https://wezterm.org/index.html) | Optional |
 
 > **Warning:** Please use a legal, purchased license for MyDockFinder. Cracked copies are not supported and may contain malware.
@@ -40,6 +47,8 @@ The repository contains:
 - Windows default virtual desktop shortcuts are used for workspaces (see [How it works](#how-it-works)).
 
 ### Installation
+
+Follow these steps in order.
 
 1. **Clone the repository:**
    ```powershell
@@ -54,26 +63,68 @@ The repository contains:
    | `config/fastfetch/` | `C:\Users\<YOUR_USERNAME>\.config\fastfetch\` |
    | `config/wezterm/.wezterm.lua` | `C:\Users\<YOUR_USERNAME>\.wezterm.lua` (optional) |
    | `config/mydockfinder/config.ini` | MyDockFinder's install folder (see below) |
-   | `resource/` | A folder of your choice, for example `C:\Users\<YOUR_USERNAME>\winbtw-resource\` |
+   | `resource/walls/` | `C:\Users\<YOUR_USERNAME>\walls\` |
+   | `resource/` (other files) | A folder of your choice, for example `C:\Users\<YOUR_USERNAME>\winbtw-resource\` |
 
-4. **Edit paths.** Open each config file and check for hardcoded paths, usually pointing to a previous username or a previous folder. Replace them with your own paths, for example:
+4. **Edit paths.** Open each config file and check for hardcoded paths, usually pointing to a previous username or a previous folder. Replace them with your own paths. Replace every `<YOUR_USERNAME>` with your Windows username, for example:
    - Image paths in `config/fastfetch/config.jsonc`
    - Icon or cursor paths in `config/yasb/.config/yasb/` (`styles.css`, `config.yaml`)
+   - The wallpaper folder in `config/yasb/.config/yasb/config.yaml` (see [Wallpaper switcher](#wallpaper-switcher))
    - Any paths in `.wezterm.lua`
 
    Tip: search for `C:\Users\` or `resource` in each file.
 
-5. **Set up Fastfetch.** Run it with the config:
+5. **Set up the wallpaper switcher.** See [Wallpaper switcher](#wallpaper-switcher) below.
+
+6. **Set up Fastfetch.** Run it with the config:
    ```powershell
    fastfetch -c "$env:USERPROFILE\.config\fastfetch\config.jsonc"
    ```
    To use it every time, add the command to your PowerShell profile (`$PROFILE`).
 
-6. **Set up MyDockFinder.** Install the app, find its install folder (for example `steamapps\common\mydockfinder\` if you installed it through Steam, or the folder you chose), and copy `config.ini` there, replacing the existing file. Back up the original first.
+7. **Set up MyDockFinder.** Install the app, find its install folder (for example `steamapps\common\mydockfinder\` if you installed it through Steam, or the folder you chose), and copy `config.ini` there, replacing the existing file. Back up the original first.
 
-7. **Set up Windhawk.** Follow the [Windhawk](#windhawk) steps below.
+8. **Set up Windhawk.** Follow the [Windhawk](#windhawk) steps below.
 
-8. **Restart** YASB, MyDockFinder, and Windhawk (or sign out and back in) so all changes load.
+9. **Restart** YASB, MyDockFinder, and Windhawk (or sign out and back in) so all changes load.
+
+#### Wallpaper switcher
+
+The wallpaper switcher is set up in the YASB config. It needs two things:
+
+1. **Wallpaper images.** Copy the contents of `resource/walls/` to `C:\Users\<YOUR_USERNAME>\walls\`. Replace `<YOUR_USERNAME>` with your Windows username.
+2. **Install the VirtualDesktop PowerShell module.** Open PowerShell and run:
+   ```powershell
+   Install-Module VirtualDesktop -Scope CurrentUser
+   ```
+   This module provides `Set-AllDesktopWallpapers`, which the switcher uses to change the wallpaper. It works on Windows 11 only. Without it, the switcher will show an error. `Set-AllDesktopWallpapers` replaces the wallpaper on all virtual desktops, not only the current one.
+
+Then open `C:\Users\<YOUR_USERNAME>\.config\yasb\config.yaml`, find the `wallpapers` widget, and make sure `image_path` points to your `walls` folder:
+
+```yaml
+  wallpapers:
+    type: "yasb.wallpapers.WallpapersWidget"
+    options:
+      label: "<span>\ue7aa</span>"
+      image_path: "C:/Users/<YOUR_USERNAME>/walls"
+      run_after:
+            - 'powershell -NoProfile -WindowStyle Hidden -Command "Set-AllDesktopWallpapers ''{image}''"'
+      engine:
+        enabled: true
+        animation: slide_top
+      gallery:
+        type: "strip"
+        image_width: 240
+        accent_color: "#fff"
+        orientation: "portrait"
+        image_corner_radius: 0
+      keybindings:
+      - keys: alt+shift+w
+        action: toggle_gallery
+        screen: cursor
+```
+
+Replace `<YOUR_USERNAME>` in `image_path` with your Windows username. Use forward slashes (`/`) in this path, as shown.
 
 #### Windhawk
 
@@ -102,11 +153,11 @@ The repository contains:
 | Component | Role |
 |---|---|
 | **Windhawk** | Adds visual tweaks to Windows (rounded corners, magnifying cursor, Dynamic Island). Hooks into `dwm.exe`. |
-| **YASB** | Top status bar, styled with CSS (`styles.css`, `yasb_colors.css`). Includes its own quick search. |
+| **YASB** | Top status bar, styled with CSS (`styles.css`, `yasb_colors.css`). Includes its own quick search and wallpaper switcher. |
 | **MyDockFinder** | Dock at the bottom of the screen. |
 | **Fastfetch** | Shows system info with the "kiyo" logo, for example in new terminal sessions. |
 | **WezTerm** | Optional terminal, with its own theme and settings. |
-| **resource/** | Component icons and cursor images. |
+| **resource/** | Component icons, cursor images, wallpapers (`walls/`), and fonts (`fonts/`). |
 
 #### Keybindings
 
@@ -117,7 +168,7 @@ The repository contains:
 | `Ctrl + Alt + D` | Hide or show the Dynamic Island | Windhawk (Dynamic Island) |
 | `Ctrl + Alt + Space` | Open the Dynamic Island quick search | Windhawk (Dynamic Island) |
 | `Alt + Space` | Open YASB quick search (like macOS Spotlight) | YASB |
-| `Alt + Shift + W` | Quick switch wallpaper | YASB |
+| `Alt + Shift + W` | Open the wallpaper gallery (quick switch wallpaper) | YASB |
 
 **Windows default shortcuts used for workspaces:**
 
@@ -130,154 +181,7 @@ The repository contains:
 
 ---
 
-### Bahasa Indonesia
-
-#### Pengantar dotfiles/config
-
-**winbtw** adalah kumpulan dotfiles dan file konfigurasi yang mengubah desktop Windows 11 menjadi tampilan yang lebih rapi dan terinspirasi macOS. Isinya meliputi status bar, terminal, tampilan info sistem, dock, gaya jendela, dan overlay bergaya Dynamic Island.
-
-Windows juga bisa punya tampilan desktop yang bagus, tidak hanya Linux.
-
-Repositori ini berisi:
-
-- `config/fastfetch/`: Tata letak Fastfetch, gambar logo, dan teks ASCII ("kiyo").
-- `config/mydockfinder/`: Pengaturan dock MyDockFinder (`config.ini`).
-- `config/wezterm/`: Konfigurasi WezTerm (`.wezterm.lua`). Opsional.
-- `config/yasb/.config/yasb/`: Konfigurasi dan gaya status bar YASB (`config.yaml`, `styles.css`, `yasb_colors.css`).
-- `resource/`: Ikon dan kursor komponen yang dipakai konfigurasi.
-- `windhawk.txt`: Pengaturan mod Windhawk yang disalin secara manual.
-- `LICENSE`: Lisensi MIT.
-
-#### Persiapan
-
-##### Kebutuhan
-
-- **Sistem operasi:** Windows 11 (sudah diuji). Windows 10 mungkin bisa, tetapi belum diuji.
-- **Izin:** Akses Administrator mungkin diperlukan untuk beberapa pengaturan Windhawk dan dock.
-
-##### Software wajib
-
-[mydockfinder](https://store.steampowered.com/app/1787090/MyDockFinder/)
-[yasb](https://yasb.dev/)
-[WezTerm](https://wezterm.org/index.html)
-[fastfetch](https://github.com/fastfetch-cli/fastfetch)
-[windhawk](https://windhawk.net/)
-
-> **Peringatan:** Mohon gunakan lisensi MyDockFinder yang legal dan sudah dibeli. Salinan bajakan tidak didukung dan bisa mengandung malware.
-
-##### Komponen opsional
-
-- WezTerm: Hanya diperlukan jika Anda ingin memakai konfigurasi terminal yang disertakan.
-- Font **SF Pro Display**: Dipakai oleh konfigurasi Dynamic Island (`FontFamily`). File font disimpan di `resource/fonts/`. Jika tidak dipasang, overlay akan memakai font lain.
-- Shortcut desktop virtual bawaan Windows dipakai untuk workspace (lihat [Cara kerja](#cara-kerja)).
-
-#### Instalasi
-
-Ada dua cara untuk memasang winbtw.
-
-##### Opsi A: Otomatis (tidak disarankan)
-
-Cara ini menyalin seluruh folder config ke folder user Anda sekaligus. Prosesnya cepat, tetapi melewati langkah manual yang dibutuhkan beberapa aplikasi, sehingga mungkin ada yang tidak berfungsi dengan benar.
-
-1. Clone repositori:
-   ```powershell
-   git clone https://github.com/wristkyion/winbtw.git
-   ```
-2. Salin isi folder `config/` ke `C:\Users\<NAMA_USER_ANDA>\`. Ini akan membuat folder `.config\` dan file terkait di sana.
-3. Tetap lakukan langkah manual untuk [Windhawk](#windhawk-1) dan [MyDockFinder](#mydockfinder-1) di bawah. Langkah ini tidak bisa sepenuhnya otomatis.
-
-##### Opsi B: Manual (sangat akurat, direkomendasikan)
-
-1. **Clone repositori:**
-   ```powershell
-   git clone https://github.com/wristkyion/winbtw.git
-   ```
-2. **Pasang software wajib** yang tercantum di [Persiapan](#persiapan).
-3. **Salin setiap config ke lokasinya:**
-
-   | Sumber (di repo) | Tujuan (di PC Anda) |
-   |---|---|
-   | `config/yasb/.config/yasb/` | `C:\Users\<NAMA_USER_ANDA>\.config\yasb\` |
-   | `config/fastfetch/` | `C:\Users\<NAMA_USER_ANDA>\.config\fastfetch\` |
-   | `config/wezterm/.wezterm.lua` | `C:\Users\<NAMA_USER_ANDA>\.wezterm.lua` (opsional) |
-   | `config/mydockfinder/config.ini` | Folder instalasi MyDockFinder (lihat di bawah) |
-   | `resource/` | Folder pilihan Anda, misalnya `C:\Users\<NAMA_USER_ANDA>\winbtw-resource\` |
-
-4. **Sesuaikan path.** Buka setiap file config dan periksa path yang tertulis langsung (hardcoded), biasanya mengarah ke username atau folder lama. Ganti dengan path Anda sendiri, misalnya:
-   - Path gambar di `config/fastfetch/config.jsonc`
-   - Path ikon atau kursor di `config/yasb/.config/yasb/` (`styles.css`, `config.yaml`)
-   - Path apa pun di `.wezterm.lua`
-
-   Tips: cari `C:\Users\` atau `resource` di setiap file.
-
-5. **Atur Fastfetch.** Jalankan dengan config-nya:
-   ```powershell
-   fastfetch -c "$env:USERPROFILE\.config\fastfetch\config.jsonc"
-   ```
-   Agar selalu aktif, tambahkan perintah tersebut ke profil PowerShell Anda (`$PROFILE`).
-
-6. **Atur MyDockFinder.** Pasang aplikasinya, cari folder instalasinya (misalnya `steamapps\common\mydockfinder\` jika dipasang lewat Steam, atau folder yang Anda pilih), lalu salin `config.ini` ke sana dan timpa file yang ada. Buat cadangan file aslinya terlebih dahulu.
-
-7. **Atur Windhawk.** Ikuti langkah [Windhawk](#windhawk-1) di bawah.
-
-8. **Mulai ulang** YASB, MyDockFinder, dan Windhawk (atau keluar lalu masuk kembali) agar semua perubahan termuat.
-
-##### Windhawk
-
-1. Buka Windhawk, lalu masuk ke **Settings > Advanced settings > More advanced settings > Process inclusion list**.
-2. Pastikan **`dwm.exe`** ada di daftar. Mod perlu mengait ke `dwm.exe` agar berfungsi.
-3. Pasang dan aktifkan mod berikut:
-   - **Custom Window Corner Radius**
-   - **macOS magnifying cursor**
-   - **Dynamic Island for Windows**
-4. Buka pengaturan tiap mod, ubah ke **text mode**, lalu tempel pengaturan yang sesuai dari `windhawk.txt`:
-   - **Custom Window Corner Radius:** `radius: 15`, `smallRadius: 6`, `tooltipRadius: -1`, `roundMaximizedAndSnapped: none`
-   - **macOS magnifying cursor:** `maxScalePercent: 400`, `shakeThreshold: 2500`, `lerpSpeedUpPercent: 40`, `lerpSpeedDownPercent: 15`
-   - **Dynamic Island for Windows:** tempel seluruh blok dari `windhawk.txt`.
-
-##### MyDockFinder
-
-- Pasang MyDockFinder dan aktifkan lisensinya.
-- Ganti `config.ini`-nya dengan file dari `config/mydockfinder/`, seperti dijelaskan pada langkah instalasi di atas.
-
----
-
-#### Cara kerja
-
-##### Ringkasan
-
-| Komponen | Fungsi |
-|---|---|
-| **Windhawk** | Menambahkan efek visual ke Windows (sudut membulat, kursor pembesar, Dynamic Island). Mengait ke `dwm.exe`. |
-| **YASB** | Status bar di bagian atas, dengan gaya CSS (`styles.css`, `yasb_colors.css`). Memiliki pencarian cepat sendiri. |
-| **MyDockFinder** | Dock di bagian bawah layar. |
-| **Fastfetch** | Menampilkan info sistem dengan logo "kiyo", misalnya saat membuka sesi terminal baru. |
-| **WezTerm** | Terminal opsional, dengan tema dan pengaturannya sendiri. |
-| **resource/** | Ikon dan gambar kursor komponen. |
-
-##### Shortcut keyboard
-
-**Shortcut kustom winbtw:**
-
-| Shortcut | Aksi | Dari |
-|---|---|---|
-| `Ctrl + Alt + D` | Sembunyikan atau tampilkan Dynamic Island | Windhawk (Dynamic Island) |
-| `Ctrl + Alt + Space` | Membuka pencarian cepat Dynamic Island | Windhawk (Dynamic Island) |
-| `Alt + Space` | Membuka pencarian cepat YASB (seperti Spotlight di macOS) | YASB |
-| `Alt + Shift + W` | Ganti wallpaper dengan cepat | YASB |
-
-**Shortcut bawaan Windows untuk workspace:**
-
-| Shortcut | Aksi |
-|---|---|
-| `Win + Ctrl + D` | Membuat desktop virtual baru |
-| `Win + Ctrl + ←` / `→` | Berpindah antar desktop virtual |
-| `Win + Ctrl + F4` | Menutup desktop virtual yang aktif |
-| `Win + Tab` | Membuka Task View |
-
----
-
-## License
+### License
 
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
 
