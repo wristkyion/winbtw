@@ -43,7 +43,7 @@
         },
         {
             "type": "packages",
-            "format": "{} (pacman)",
+            "format": "{} installed",
             "key": " ",
             "keyColor": "33",
         },
